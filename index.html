@@ -1,0 +1,304 @@
+---
+layout: default
+title: Realfagstermer
+---
+
+<div id="home">
+    
+    <p>
+        Realfagstermer er et flerspråklig, begrepsbasert vokabular, der hvert begrep er identifisert ved
+        en identifikator, og beskrevet med minst én foretrukket term på bokmål. I tillegg kan begreper ha
+        foretrukne termer på andre språk og alternative termer (synonymer, akronymer, osv.).
+        Vokabularet er nokså ungt, så det gjenstår fremdeles mye arbeid med utvikling og kvalitetssikring.
+        <a href="http://ub.uio.no/om/tjenester/emneord/realfagstermer.html">Mer om vokabularet</a>.
+    </p>
+
+    <div style="height:2em;">
+        <div id="remote">
+          <input class="typeahead" type="text" placeholder="Søk (beta, kan være utilgjengelig i perioder)">
+        </div>
+    </div>
+
+    <div class="results" style="background:#fff;padding:2em;font-size:90%; box-shadow:1px 1px 1px #ddd; margin:0 .2em; border-radius: 0 0 3px 3px;"></div>
+
+    <h2>
+        <a name="status">Status</a>
+    </h2>
+
+    <p>
+        Sist endret <a href="https://github.com/realfagstermer/realfagstermer/commits/master">{{ site.data.stats_current.ts | date: '%d.%m.%Y kl. %H' }}</a>.
+        <s>Dump tilgjengelig som
+        <a href="http://data.ub.uio.no/realfagstermer/dumps/realfagstermer.ttl">Turtle</a> |
+        <a href="http://data.ub.uio.no/realfagstermer/dumps/realfagstermer.rdf.xml">RDF/XML</a> |
+        <a href="http://data.ub.uio.no/realfagstermer/dumps/realfagstermer.nt">Ntriples</a> |
+        <a href="http://data.ub.uio.no/realfagstermer/dumps/realfagstermer.marc21.xml">MARC21</a></s>
+    </p>
+
+    <p>
+        Inneholder <span class="number">{{ site.data.stats_current.concepts }}</span> begreper
+        og <span class="number">{{ site.data.stats_current.terms._sum }}</span> termer, hvorav
+        <span class="number">{{ site.data.stats_current.terms.nn }}</span> på nynorsk,
+        <span class="number">{{ site.data.stats_current.terms.en }}</span> på engelsk og
+        <span class="number">{{ site.data.stats_current.terms.la }}</span> på latin.
+    </p>
+
+    <ul class="fa-ul">
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.facets.Topic.concepts }}</span> generelle emneord
+            (<span class="number">{{ site.data.stats_current.facets.Topic.terms }}</span> termer)
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.facets.Geographic.concepts }}</span>
+            geografiske begreper, som f.eks. stedsnavn
+            (<span class="number">{{ site.data.stats_current.facets.Geographic.terms }}</span> termer)
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.facets.Temporal.concepts }}</span>
+            tidsbegreper, som f.eks. tidsperioder
+            (<span class="number">{{ site.data.stats_current.facets.Temporal.terms }}</span> termer)
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.facets.GenreForm.concepts }}</span> sjanger/form-beskrivelser
+            (<span class="number">{{ site.data.stats_current.facets.GenreForm.terms }}</span> termer)
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.facets.ComplexSubject.concepts }}</span> bygde strenger
+        </li>
+    </ul>
+
+    Mappinger:
+    <ul class="fa-ul">
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.mappings.tekord }}</span> til Tekord
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.mappings.ddc }}</span> til Dewey (DDC23)
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.mappings.agrovoc }}</span> til Agrovoc
+        </li>
+    </ul>
+
+    Annet:
+    <ul class="fa-ul">
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.features.definition }}</span> definisjoner
+            <tt>(skos:definition)</tt>
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.features.editorialNote }}</span> noter
+            <tt>(skos:editorialNote)</tt>
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.features.related }}</span> ‘se også’-henvisninger
+            <tt>(skos:related)</tt>
+        </li>
+    </ul>
+
+    <h2>
+        <a name="example">Eksempelbegrep</a>
+    </h2>
+    
+    <p>
+        Begrepet <a href="http://data.ub.uio.nu/realfagstermer/006839">&lt;http://data.ub.uio.no/realfagstermer/006839&gt;</a>
+        er et eksempel på et godt utbygd begrep i Realfagstermer.
+        Begrepet har til sammen sju termer, inkludert vitenskapelig navn på latin.
+        Med <tt>skos:narrower</tt> er det angitt lenker til smalere begreper (strenger identifisert ved deres URIer),
+        og med <tt>skos:exactMatch</tt> er det angitt mappinger til tilsvarende begreper i Tekord, Agrovoc og Dewey (DDC23).
+        Med <a href="http://www.w3.org/TR/turtle/">Turtle-syntaks</a> ser begrepet slik ut:
+    </p>
+
+    {% highlight turtle %}
+<http://data.ub.uio.no/realfagstermer/006839> a mads:Topic,
+        skos:Concept ;
+    dcterms:created "2014-08-25"^^xsd:date ;
+    dcterms:modified "2014-11-12"^^xsd:date ;
+    dcterms:identifier "REAL006839" ;
+    skos:prefLabel "Flerbørstemarker"@nb,
+        "Polychaeta"@la ;
+    skos:altLabel "Flerbørsteormer"@nb,
+        "Mangebørstemark"@nb,
+        "Mangebørsteormer"@nb,
+        "Havbørsteormer"@nb,
+        "Havbørstemarker"@nb,
+        "Polycheter"@nb.
+    skos:inScheme <http://data.ub.uio.no/realfagstermer/> ;
+    skos:narrower <http://data.ub.uio.no/realfagstermer/018529>,
+        <http://data.ub.uio.no/realfagstermer/024538>,
+        <http://data.ub.uio.no/realfagstermer/026723> ;
+    skos:exactMatch <http://ntnu.no/ub/data/tekord#NTUB17114>,
+        <http://dewey.info/class/592.62/e23/>,
+        <http://aims.fao.org/aos/agrovoc/c_29110> .
+    {% endhighlight %}
+
+    <h2>
+        <a name="ontologi">RDF-datamodell</a>
+    </h2>
+
+    <p>
+        RDF-representasjonen av Realfagstermer baserer seg på SKOS-modellen.
+        <ul>
+            <li>
+                Vokabularet Realfagstermer er uttrykt som et 
+                <a href="http://www.w3.org/2009/08/skos-reference/skos.html#ConceptScheme">skos:ConceptScheme</a>
+                med URI <tt>&lt;http://data.ub.uio.no/realfagstermer/&gt;</tt>, og alle emneordene
+                har tilhørighet til vokabularet uttrykt ved 
+                <tt>skos:inScheme &lt;http://data.ub.uio.no/realfagstermer/&gt;</tt>.
+            </li>
+            <li>
+                Hvert emneord er en instans av 
+                <a href="http://www.w3.org/2009/08/skos-reference/skos.html#Concept">skos:Concept</a>.
+                For å skille mellom de ulike typene emneord, er hvert emneord i tillegg en instans av
+                én av de fem klassene
+                <a href="http://www.loc.gov/mads/rdf/v1#Topic">mads:Topic</a> (generelle emneord),
+                <a href="http://www.loc.gov/mads/rdf/v1#Temporal">mads:Temporal</a> (tidsbegreper),
+                <a href="http://www.loc.gov/mads/rdf/v1#Geographic">mads:Geographic</a> (geografiske begreper),
+                <a href="http://www.loc.gov/mads/rdf/v1#ComplexSubject">mads:ComplexSubject</a> (bygde strenger)
+                eller
+                <a href="http://www.loc.gov/mads/rdf/v1#GenreForm">mads:GenreForm</a> (sjanger/form-begreper).
+                I fremtiden kommer vi trolig til å lage en fullstendig MADS-representasjon
+                som et alternativ til SKOS-representasjonen.
+            </li>
+            <li>
+                <tt>skos:narrower</tt> peker alltid til bygde strenger. Realfagstermer har ikke hierarkiske
+                relasjoner i tradisjonell forstand.
+            </li>
+        </ul>
+    </p>
+
+</div>
+
+
+<script>
+    $('.results').hide();
+    var fieldName = 'remote',
+        searchUrl = 'http://data.ub.uio.nu/realfagstermer/api/search?query=%QUERY',
+        showUrl = 'http://data.ub.uio.nu/realfagstermer/api/show?uri={uri}',
+        biblioUrl = 'http://katapi.biblionaut.net/documents/search?format=json&query=bs.emne%3D%22{term}%22+sortBy+bs.aar/sort.descending';
+
+    var selectedConcept = null;
+
+
+    function showConcept(s) {
+        if (s == selectedConcept) return;
+        selectedConcept = s;
+        if (selectedConcept === null) {
+            $('.results').hide();
+            return;
+        }
+        $('.results').show();
+        var tpl = '<strong>URI</strong>: <tt>&lt;{uri}&gt;</tt><br><strong>Termer</strong>: {labels}<br><strong>Koblinger</strong>: {mappings}<br><strong>Begrepstype</strong>: {facet}<br><strong>Dokumenter</strong>:<br>{docs}'
+        var term = s.label.replace('--', ' : ');
+        var tpl2 = tpl.replace('{uri}', s.uri).replace('{labels}', encodeURIComponent(term));
+        $('.results').html(tpl2);
+        var uri = showUrl.replace('{uri}', s.uri);
+        $.get(uri).done(function(data) {
+            var mappings = data.mappings.reduce(function(p,c) {
+                return (p ? p + ',<br>' : '') + c.role + ' <tt>&lt;' + c.uri + '&gt;</tt>';
+            }, '');
+            var langOrder = {'nb': 1, 'nn': 2, 'en': 3, 'la': 4, null: 5};
+            data.labels = data.labels.sort(function(a,b) {
+                if (a.lang == b.lang) return a.role < b.role;
+                else return langOrder[a.lang] > langOrder[b.lang];
+            })
+            var terms = data.labels.reduce(function(p,c) {
+                return (p ? p + ', ' : '') + c.value + (c.lang ? ' <small>(' + c.lang + ')</small>' : '');
+                if (c.role == 'prefLabel' && c.lang == 'nb') term = c.value.replace('--', ' : ');
+            }, '');
+            
+            var tpl2 = tpl.replace('{uri}', s.uri)
+                .replace('{labels}', terms)
+                .replace('{mappings}', mappings)
+                .replace('{facet}', data.facet);
+            $('.results').html(tpl2.replace('{docs}', '<em>Henter…</em>'));
+
+            uri = biblioUrl.replace('{term}', encodeURIComponent(term));
+            console.log(uri);
+            $.get(uri).done(function(data) {
+                var items = data.documents.reduce(function(p,c) {
+                    return (p ? p + ',<br>' : '') + '- <a href="http://katapi.biblionaut.net/documents/show/' + c.bibsys_id + '">' + c.title + '</a> (' + c.year + ')';
+                }, '');
+                tpl2 = tpl2.replace('{docs}', items);
+                $('.results').html(tpl2);
+            });
+
+        });
+
+    }
+
+    var hound = new Bloodhound({
+      datumTokenizer: Bloodhound.tokenizers.obj.whitespace('label'),
+      queryTokenizer: Bloodhound.tokenizers.whitespace,
+      limit: 20,
+      remote: {
+        url: searchUrl,
+        ajax: {
+          type: 'GET',
+          dataType: 'JSON'
+        },
+        filter: function(parsedResponse) {
+          if (parsedResponse.error) {
+            $('.error').text(parsedResponse.error);
+            return [];
+          } else {
+            $('.error').text('');              
+          }
+          return parsedResponse.results;
+        }
+      }
+    });
+    hound.initialize();
+
+    $('#remote .typeahead').typeahead({
+        minLength: 2
+    }, {
+      name: fieldName,
+      displayKey: 'label',
+      source: hound.ttAdapter(),
+      templates: {
+        empty: function() {
+            var s = $('.tt-input').val().length < 4 ? '' : 'Ingen treff';
+            return [
+              '<div class="tt-empty">',
+              '<p>(' + s + ')</p>',
+              '</div>'
+            ].join('\n')
+        },
+        suggestion: function(o) {
+          //console.log(o);
+          var term = '<strong>' + o.label + '</strong>';
+          if (o.match != o.label) {
+            term += ', <em>også kjent som ' + o.match + '</em>';
+          }
+          return '<p>' + term + '</p>';  //  <span style="color:#888;">(' + o.lang + ')</span>
+        }
+      } 
+    })
+    .on('typeahead:selected', function(e, s, d) {
+      console.log('typeahead:selected');
+      if (s) {
+        showConcept(s);
+      }
+   })
+   .on('typeahead:autocompleted', function(e, s, d) {
+      console.log('typeahead:autocompleted');
+      if (s) {
+        showConcept(s);
+      }
+   })
+   .on('typeahead:matched', function(e, datum) {
+      showConcept(datum);
+   })
+   .on('keyup', function (e) {
+      var v = $('.tt-input').val();
+      //console.log(selectedConcept);
+      if (selectedConcept && v != selectedConcept.label) {
+        showConcept(null);
+      }              
+      return true;
+   });
+
+
+
+
+</script>

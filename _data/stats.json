@@ -1,0 +1,73 @@
+{
+  "facets": {
+    "ComplexSubject": {
+      "concepts": 15979, 
+      "prefLabels": {}
+    }, 
+    "GenreForm": {
+      "altLabels": {
+        "en": 1, 
+        "la": 0, 
+        "nb": 90, 
+        "nn": 0
+      }, 
+      "concepts": 116, 
+      "prefLabels": {
+        "en": 9, 
+        "la": 0, 
+        "nb": 116, 
+        "nn": 1
+      }
+    }, 
+    "Geographic": {
+      "altLabels": {
+        "en": 3, 
+        "la": 0, 
+        "nb": 32, 
+        "nn": 0
+      }, 
+      "concepts": 865, 
+      "prefLabels": {
+        "en": 6, 
+        "la": 1, 
+        "nb": 865, 
+        "nn": 0
+      }
+    }, 
+    "Temporal": {
+      "altLabels": {
+        "en": 0, 
+        "la": 0, 
+        "nb": 9, 
+        "nn": 0
+      }, 
+      "concepts": 22, 
+      "prefLabels": {
+        "en": 0, 
+        "la": 0, 
+        "nb": 22, 
+        "nn": 0
+      }
+    }, 
+    "Topic": {
+      "altLabels": {
+        "en": 58, 
+        "la": 4, 
+        "nb": 1957, 
+        "nn": 4
+      }, 
+      "concepts": 14046, 
+      "prefLabels": {
+        "en": 1800, 
+        "la": 207, 
+        "nb": 14046, 
+        "nn": 10
+      }
+    }
+  }, 
+  "features": {
+    "definition": 0, 
+    "definitions": 292, 
+    "editorialNote": 126
+  }
+}

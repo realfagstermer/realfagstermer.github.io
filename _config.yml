@@ -1,0 +1,6 @@
+name: Realfagstermer
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jekyll-redirect-from
+  - jekyll-sass-converter
