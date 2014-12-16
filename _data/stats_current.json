@@ -1,6 +1,6 @@
 {
-  "concepts": 30979, 
-  "conceptsWithoutStrings": 15019, 
+  "concepts": 30978, 
+  "conceptsWithoutStrings": 15018, 
   "facets": {
     "ComplexSubject": {
       "concepts": 15960, 
@@ -59,14 +59,14 @@
       "altLabels": {
         "en": 70, 
         "la": 5, 
-        "nb": 1990, 
+        "nb": 1991, 
         "nn": 6
       }, 
-      "concepts": 14016, 
+      "concepts": 14015, 
       "prefLabels": {
         "en": 1846, 
         "la": 213, 
-        "nb": 14016, 
+        "nb": 14015, 
         "nn": 31
       }, 
       "terms": 18177
@@ -95,5 +95,5 @@
     "nb": 33101, 
     "nn": 38
   }, 
-  "ts": 1418728093
+  "ts": 1418735244
 }
