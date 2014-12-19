@@ -2,21 +2,23 @@
 layout: default
 title: Realfagstermer
 ---
-
-# Retningslinjer for emneordssetting
+# Retningslinjer for indeksering
 
 *Sist oppdatert 19. desember 2014*
 
-Dette dokumentet er ment som et verktøy til hjelp for å samordne emneordspraksis ved bruk av Realfagstermer.
-Formålet med emneordsindekseringen er å beskrive dokumentene slik at gjenfinningen blir mest mulig presis: Det relevante blir funnet, det ikke-relevante blir utelatt. Emneordene brukes først og fremst til søking, men er også nyttige for vurdering av dokumentets relevans.
+Formålet med emneordsindekseringen er å beskrive dokumentene slik at gjenfinningen blir mest mulig *presis* og *fullstendig*: Det relevante blir funnet, det ikke-relevante blir utelatt. Emneordene brukes først og fremst til søking, men er også nyttige for vurdering av dokumentets relevans.==[Hvordan da?]==
 
-Disse retningslinjene følger [Humords indekseringsregler](http://bibsys.no/files/pdf/handbok/humord_indekseringsregler_handbok.pdf) der det er mulig. Regler og eksempler er hentet derfra der det er relevant. For ordforklaringer, se Bruksanvisning for Roald II ==TRENGER LENKE==
+Disse retningslinjene følger [Humords indekseringsregler](http://bibsys.no/files/pdf/handbok/humord_indekseringsregler_handbok.pdf) så langt det er mulig. Regler og eksempler er hentet derfra der det er relevant. For ordforklaringer, *se [ordliste](ordliste.html)*.
 
-Vi bruker programmet Roald for å registrere termer fra Realfagstermer
-i den enkelte BIBSYS-post. Ikke skriv emneord inn i postene selv, men
-lim inn fra Roald. Liming fra Roald sikrer enhetlig skrivemåte, at
-termene legges i korrekt Marcfelt, og at emneordskilden (Realfagstermer)
-registreres korrekt som `$2 no-ubo-mn`.
+:warning: Vi bruker programmet [Roald](http://folk.uio.no/knuthe/progdist/) for indeksering.
+Emneord skal aldri skrives inn manuelt, men limes inn fra Roald. Dette er fordi selv
+det mest pertentlige menneske ikke kan garantere 100 % enhetlig skrivemåte. Innliming sikrer også
+at termene legges i korrekt felt,
+og at emneordskilden (Realfagstermer) registreres korrekt som `$2 no-ubo-mn`.
+
+:bulb: Årsaken til at vi benytter metoden *innliming* skyldes at Bibsys ikke per i dag tilbyr et tilfredsstillende *programmeringsgrensesnitt*.
+Ved overgangen til Alma antar vi at mulighetene for direkteredigering fra Roald vil være tilstede,
+men det gjenstår foreløpig å utvikle arbeidsflyten for indeksering i nytt biblioteksystem.
 
 ## Indekseringsnivå
 
@@ -70,7 +72,7 @@ Termene registreres altså i de bibliografiske postene som frittstående emneord
 postkoordinert gjenfinning, med unntak av emnetermer som kan registreres som `Hovedemne : Underordnet emne`:
 
 ```
-687 $a Emneterm $b Underemneterm  $2 no-ubo-mn
+687 $a Emneterm $b Underemneterm $2 no-ubo-mn
 648 $a Tidterm $2 no-ubo-mn
 651 $a Stedterm $2 no-ubo-mn
 655 $a Formterm $2 no-ubo-mn
@@ -178,9 +180,114 @@ Dersom det geografiske området er behandlet generelt i en bestemt form eller sj
     687 $a Geografi
     ```
 
+
+## Regler for indeksering av spesielle emner
+
+### Biografier/omtalte personer og sekundærlitteratur 
+
+* *Omtalt person* registreres i `600 $a` (Emneinnførsel personnavn) med navneform
+  fra personautoritetsregisteret. *Eksempel* fra
+  [Schrödinger's kittens and the search for reality](http://katapi.biblionaut.net/documents/show/952397994):
+
+    ```
+    600 $a Schrödinger, Erwin
+    ```
+
+    der «Schrödinger, Erwin» er den foretrukne navneformen [i personautoritetsregisteret](http://hdl.handle.net/11250.1/36091498).
+
+ * *Omtalt verk* registreres i marcfelt `600 $t`. *Eksempel* fra
+   [The Principia : mathematical principles of natural philosophy](http://katapi.biblionaut.net/documents/show/990335577):
+
+        ```
+        600 $a Newton, Isaac $t Principia
+        ```
+
+        Merk at vi fremdeles bruker `600 Emneinnførsel personnavn`.
+        ==Når kan vi bruke `630 Emneinnførsel standardtittel`?==
+
+* For biografier registreres formtermen [Biografier](http://data.ub.uio.no/realfagstermer/030117). *Eksempler*:
+
+ * [Kristine Bonnevie : et forskerliv](http://katapi.biblionaut.net/documents/show/121695743) :
+   Her registreres *omtalt person* (600) fra personautoritetsregisteret, og form/sjanger (655)
+   fra Realfagstermer:
+
+        ```
+        600 $a Bonnevie, Kristine $d 1872-1948
+        655 $a Biografier $2 no-ubo-mn
+        ```
+
+ * [Charles Darwin’s The origin of species : new interdisciplinary essays](http://katapi.biblionaut.net/documents/show/120023849): Her registreres *omtalt person (600) fra personautoritetsregisteret. Boken faller ikke inn under
+ noen kjent form/sjanger i Realfagstermer, så 655 registreres ikke.
+
+        ```
+        600 $a Darwin, Charles $d 1809-1882 $t On the origin of species
+        ```
+
+### Ordbøker
+
+Alle ordbøker får formtermen [Ordbøker](http://data.ub.uio.no/realfagstermer/030101)
+i tillegg til emneterm for kildespråk. Term for målspråk registreres som underemneterm.
+*Eksempler*:
+
+* [Nynorskordboka](http://katapi.biblionaut.net/documents/show/061377104):
+    ```
+    687 $a Nynorsk
+    655 $a Ordbøker
+    ```
+
+    (tilsvarer strengen: `Nynorsk : Ordbøker`)
+
+* Tysk-norsk ordbok
+
+    ```
+    687 $a Tysk språk $b Norsk språk
+    655 $a Ordbøker
+    ```
+
+    (tilsvarer strengen `Tysk språk : Norsk språk : Ordbøker`)
+
+* Arabisk-norsk-engelsk ordbok
+
+    ```
+    687 $a Arabisk språk $b Norsk språk
+    687 $a Arabisk språk $b Engelsk språk
+    655 $a Ordbøker
+    ```
+
+    (tilsvarer strengene `Arabisk språk : Norsk språk : Ordbøker` og
+    `Arabisk språk : Engelsk språk : Ordbøker`.
+
+* Fagordbøker får i tillegg term for fagområde og formtermen
+  [Terminologi](http://data.ub.uio.no/realfagstermer/030165). Eksempel fra
+
+ * [Biologisk ordbok]()???
+
+    ```
+    687 $a Biologi
+    655 $a Terminologi
+    655 $a Ordbøker
+    ```
+
+    (tilsv. strengene `Biologi : Terminologi` og `Biologi : Ordbøker`
+    ==Obs! stemmer ikke med faktisk innførsel==
+
+ * [Norsk-engelsk teknisk ordbok](http://katapi.biblionaut.net/documents/show/900606878)
+
+    ```
+    687 $a Teknikk
+    687 $a Norsk språk $b Engelsk språk
+    655 $a Ordbøker
+    655 $a Terminologi
+    ```
+
+    ==Obs! stemmer ikke med faktisk innførsel==
+
+    (tilsv. strengene `Teknikk : Terminologi`, `Teknikk : Ordbøker` og ` Norsk språk : Engelsk språk : Ordbøker`)
+
+
 **Fotnoter:**
 
-[^1]: Hjortsæter, E. Emneordskatalogisering: innholdsanalyse, emnerepresentasjon og lagring. 2005, Oslo: Høgskolen i Oslo, Avdeling journalistikk, bibliotek- og informasjonsfag.
+[^1]: Hjortsæter, E. Emneordskatalogisering: innholdsanalyse, emnerepresentasjon og lagring. 2005, Oslo: Høgskolen i Oslo, Avdeling journalistikk, bibliotek- og informasjonsfag, s. 73-74.
 
 
 
