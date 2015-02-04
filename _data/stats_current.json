@@ -64,18 +64,18 @@
       }, 
       "concepts": 13910, 
       "prefLabels": {
-        "en": 1907, 
-        "la": 223, 
+        "en": 1908, 
+        "la": 224, 
         "nb": 13910, 
         "nn": 38
       }, 
-      "terms": 18242
+      "terms": 18244
     }
   }, 
   "features": {
     "broadMatch": 9, 
     "closeMatch": 15, 
-    "definition": 315, 
+    "definition": 316, 
     "editorialNote": 127, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
@@ -89,11 +89,11 @@
   }, 
   "terms": {
     "null": 509, 
-    "_sum": 35824, 
-    "en": 2012, 
-    "la": 231, 
+    "_sum": 35826, 
+    "en": 2013, 
+    "la": 232, 
     "nb": 33025, 
     "nn": 47
   }, 
-  "ts": 1423040876
+  "ts": 1423044434
 }
