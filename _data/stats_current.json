@@ -1,9 +1,9 @@
 {
-  "concepts": 30828, 
+  "concepts": 30830, 
   "conceptsWithoutStrings": 14920, 
   "facets": {
     "ComplexSubject": {
-      "concepts": 15908, 
+      "concepts": 15910, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -89,11 +89,11 @@
   }, 
   "terms": {
     "null": 510, 
-    "_sum": 35824, 
+    "_sum": 35826, 
     "en": 2010, 
     "la": 231, 
-    "nb": 33026, 
+    "nb": 33028, 
     "nn": 47
   }, 
-  "ts": 1422976047
+  "ts": 1423037234
 }
