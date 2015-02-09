@@ -1,9 +1,9 @@
 {
-  "concepts": 30940, 
-  "conceptsWithoutStrings": 15015, 
+  "concepts": 30757, 
+  "conceptsWithoutStrings": 14860, 
   "facets": {
     "ComplexSubject": {
-      "concepts": 15925, 
+      "concepts": 15897, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -14,14 +14,14 @@
         "nb": 92, 
         "nn": 0
       }, 
-      "concepts": 116, 
+      "concepts": 117, 
       "prefLabels": {
         "en": 10, 
         "la": 0, 
-        "nb": 116, 
+        "nb": 117, 
         "nn": 2
       }, 
-      "terms": 221
+      "terms": 222
     }, 
     "Geographic": {
       "altLabels": {
@@ -30,14 +30,14 @@
         "nb": 32, 
         "nn": 0
       }, 
-      "concepts": 865, 
+      "concepts": 868, 
       "prefLabels": {
-        "en": 7, 
+        "en": 8, 
         "la": 1, 
-        "nb": 865, 
+        "nb": 868, 
         "nn": 0
       }, 
-      "terms": 908
+      "terms": 912
     }, 
     "Temporal": {
       "altLabels": {
@@ -57,29 +57,29 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 72, 
-        "la": 5, 
-        "nb": 1993, 
-        "nn": 6
+        "en": 86, 
+        "la": 7, 
+        "nb": 2101, 
+        "nn": 7
       }, 
-      "concepts": 14012, 
+      "concepts": 13853, 
       "prefLabels": {
-        "en": 1850, 
-        "la": 213, 
-        "nb": 14012, 
-        "nn": 32
+        "en": 1937, 
+        "la": 226, 
+        "nb": 13853, 
+        "nn": 41
       }, 
-      "terms": 18183
+      "terms": 18258
     }
   }, 
   "features": {
     "broadMatch": 9, 
     "closeMatch": 15, 
-    "definition": 300, 
+    "definition": 319, 
     "editorialNote": 127, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
-    "related": 694, 
+    "related": 733, 
     "relatedMatch": 1
   }, 
   "mappings": {
@@ -88,12 +88,12 @@
     "tekord": 3107
   }, 
   "terms": {
-    "null": 504, 
-    "_sum": 35772, 
-    "en": 1943, 
-    "la": 219, 
-    "nb": 33066, 
-    "nn": 40
+    "null": 509, 
+    "_sum": 35829, 
+    "en": 2045, 
+    "la": 234, 
+    "nb": 32991, 
+    "nn": 50
   }, 
-  "ts": 1419001685
+  "ts": 1423465600
 }
