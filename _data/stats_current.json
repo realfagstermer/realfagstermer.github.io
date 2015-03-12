@@ -57,29 +57,29 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 104, 
+        "en": 106, 
         "la": 9, 
-        "nb": 2382, 
+        "nb": 2380, 
         "nn": 15
       }, 
       "concepts": 13455, 
       "prefLabels": {
-        "en": 1991, 
+        "en": 1994, 
         "la": 256, 
         "nb": 13455, 
         "nn": 52
       }, 
-      "terms": 18264
+      "terms": 18267
     }
   }, 
   "features": {
     "broadMatch": 9, 
     "closeMatch": 15, 
-    "definition": 335, 
+    "definition": 336, 
     "editorialNote": 133, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
-    "related": 776, 
+    "related": 778, 
     "relatedMatch": 1
   }, 
   "mappings": {
@@ -88,12 +88,12 @@
     "tekord": 3107
   }, 
   "terms": {
-    "null": 507, 
-    "_sum": 35748, 
-    "en": 2120, 
+    "null": 508, 
+    "_sum": 35752, 
+    "en": 2125, 
     "la": 266, 
-    "nb": 32785, 
+    "nb": 32783, 
     "nn": 70
   }, 
-  "ts": 1426172971
+  "ts": 1426183746
 }
