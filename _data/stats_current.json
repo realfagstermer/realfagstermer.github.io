@@ -75,7 +75,7 @@
   "features": {
     "broadMatch": 9, 
     "closeMatch": 15, 
-    "definition": 337, 
+    "definition": 338, 
     "editorialNote": 131, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
@@ -95,5 +95,5 @@
     "nb": 32741, 
     "nn": 71
   }, 
-  "ts": 1426792161
+  "ts": 1426857021
 }
