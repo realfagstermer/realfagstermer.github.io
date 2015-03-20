@@ -57,25 +57,25 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 108, 
+        "en": 110, 
         "la": 9, 
         "nb": 2378, 
         "nn": 15
       }, 
       "concepts": 13430, 
       "prefLabels": {
-        "en": 2004, 
+        "en": 2005, 
         "la": 256, 
         "nb": 13430, 
         "nn": 53
       }, 
-      "terms": 18253
+      "terms": 18256
     }
   }, 
   "features": {
     "broadMatch": 9, 
     "closeMatch": 15, 
-    "definition": 339, 
+    "definition": 340, 
     "editorialNote": 132, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
@@ -88,12 +88,12 @@
     "tekord": 3107
   }, 
   "terms": {
-    "null": 504, 
-    "_sum": 35726, 
-    "en": 2138, 
+    "null": 506, 
+    "_sum": 35731, 
+    "en": 2141, 
     "la": 266, 
     "nb": 32747, 
     "nn": 71
   }, 
-  "ts": 1426882132
+  "ts": 1426889388
 }
