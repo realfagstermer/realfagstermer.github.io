@@ -25,19 +25,19 @@
     }, 
     "Geographic": {
       "altLabels": {
-        "en": 4, 
+        "en": 5, 
         "la": 0, 
         "nb": 36, 
         "nn": 0
       }, 
-      "concepts": 871, 
+      "concepts": 872, 
       "prefLabels": {
-        "en": 10, 
+        "en": 11, 
         "la": 1, 
-        "nb": 871, 
-        "nn": 1
+        "nb": 872, 
+        "nn": 2
       }, 
-      "terms": 923
+      "terms": 927
     }, 
     "Temporal": {
       "altLabels": {
@@ -59,17 +59,17 @@
       "altLabels": {
         "en": 110, 
         "la": 9, 
-        "nb": 2378, 
+        "nb": 2380, 
         "nn": 15
       }, 
-      "concepts": 13430, 
+      "concepts": 13429, 
       "prefLabels": {
         "en": 2005, 
         "la": 256, 
-        "nb": 13430, 
+        "nb": 13429, 
         "nn": 53
       }, 
-      "terms": 18256
+      "terms": 18257
     }
   }, 
   "features": {
@@ -79,7 +79,7 @@
     "editorialNote": 132, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
-    "related": 802, 
+    "related": 806, 
     "relatedMatch": 1
   }, 
   "mappings": {
@@ -89,11 +89,11 @@
   }, 
   "terms": {
     "null": 506, 
-    "_sum": 35757, 
-    "en": 2141, 
+    "_sum": 35762, 
+    "en": 2143, 
     "la": 266, 
-    "nb": 32773, 
-    "nn": 71
+    "nb": 32775, 
+    "nn": 72
   }, 
-  "ts": 1427116197
+  "ts": 1427209757
 }
