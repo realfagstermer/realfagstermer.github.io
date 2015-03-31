@@ -30,14 +30,14 @@
         "nb": 36, 
         "nn": 0
       }, 
-      "concepts": 872, 
+      "concepts": 873, 
       "prefLabels": {
         "en": 11, 
         "la": 1, 
-        "nb": 872, 
+        "nb": 873, 
         "nn": 2
       }, 
-      "terms": 927
+      "terms": 928
     }, 
     "Temporal": {
       "altLabels": {
@@ -62,14 +62,14 @@
         "nb": 2384, 
         "nn": 15
       }, 
-      "concepts": 13432, 
+      "concepts": 13431, 
       "prefLabels": {
         "en": 2009, 
         "la": 256, 
-        "nb": 13432, 
+        "nb": 13431, 
         "nn": 54
       }, 
-      "terms": 18271
+      "terms": 18270
     }
   }, 
   "features": {
@@ -95,5 +95,5 @@
     "nb": 32774, 
     "nn": 73
   }, 
-  "ts": 1427712919
+  "ts": 1427803763
 }
