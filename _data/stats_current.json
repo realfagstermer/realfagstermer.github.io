@@ -1,6 +1,6 @@
 {
-  "concepts": 30234, 
-  "conceptsWithoutStrings": 14434, 
+  "concepts": 30235, 
+  "conceptsWithoutStrings": 14435, 
   "facets": {
     "ComplexSubject": {
       "concepts": 15800, 
@@ -30,14 +30,14 @@
         "nb": 36, 
         "nn": 0
       }, 
-      "concepts": 873, 
+      "concepts": 874, 
       "prefLabels": {
         "en": 11, 
         "la": 1, 
-        "nb": 873, 
+        "nb": 874, 
         "nn": 2
       }, 
-      "terms": 928
+      "terms": 929
     }, 
     "Temporal": {
       "altLabels": {
@@ -89,11 +89,11 @@
   }, 
   "terms": {
     "null": 504, 
-    "_sum": 35828, 
+    "_sum": 35829, 
     "en": 2185, 
     "la": 267, 
-    "nb": 32796, 
+    "nb": 32797, 
     "nn": 76
   }, 
-  "ts": 1431090507
+  "ts": 1431342564
 }
