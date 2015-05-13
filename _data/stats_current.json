@@ -59,27 +59,27 @@
       "altLabels": {
         "en": 125, 
         "la": 9, 
-        "nb": 2430, 
+        "nb": 2432, 
         "nn": 18
       }, 
       "concepts": 13423, 
       "prefLabels": {
-        "en": 2041, 
+        "en": 2042, 
         "la": 259, 
         "nb": 13423, 
         "nn": 60
       }, 
-      "terms": 18365
+      "terms": 18368
     }
   }, 
   "features": {
     "broadMatch": 9, 
     "closeMatch": 15, 
-    "definition": 350, 
+    "definition": 351, 
     "editorialNote": 133, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
-    "related": 826, 
+    "related": 828, 
     "relatedMatch": 1
   }, 
   "mappings": {
@@ -89,11 +89,11 @@
   }, 
   "terms": {
     "null": 503, 
-    "_sum": 35858, 
-    "en": 2195, 
+    "_sum": 35861, 
+    "en": 2196, 
     "la": 269, 
-    "nb": 32809, 
+    "nb": 32811, 
     "nn": 82
   }, 
-  "ts": 1431529767
+  "ts": 1431547733
 }
