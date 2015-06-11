@@ -1,10 +1,13 @@
 ---
-layout: default
-title: Realfagstermer
+layout: default.nb
+title: Retningslinjer
 ---
+
 # Retningslinjer for indeksering
 
 *Sist oppdatert 19. desember 2014*
+
+## Innledning
 
 Formålet med emneordsindekseringen er å beskrive dokumentene slik at gjenfinningen blir mest mulig *presis* og *fullstendig*: Det relevante blir funnet, det ikke-relevante blir utelatt. Emneordene brukes først og fremst til søking, men er også nyttige for vurdering av dokumentets relevans.==[Hvordan da?]==
 
@@ -49,7 +52,7 @@ Emneordene skal gi en dekkende beskrivelse av det dokumentet spesielt handler om
 
 Realfagstermer er laget med utgangspunkt i samlingene i bibliotekene som utgjorde det Matematisk-naturvitenskapelige fakultetsbibliotek. Realfagsbibliotekets samlinger beskrives med Realfagstermer, som oppdateres etter behov. Forslag til nye emneord, eller endringer i gamle, registreres [på GitHub](https://github.com/realfagstermer/realfagstermer/issues).
 
-Realfagstermer skal ikke inneholde korporasjonsnavn eller navn på historiske personer. Slike navn normeres etter katalogiseringsreglene, og registreres obligatorisk i andre MARC-felt. Fagreferentene må gi beskjed til katalogisator i disse tilfellene.
+Realfagstermer skal ikke inneholde [korporasjonsnavn](ordliste.html#korporasjon) eller navn på historiske personer. Slike navn normeres etter katalogiseringsreglene, og registreres obligatorisk i andre MARC-felt. Fagreferentene må gi beskjed til katalogisator i disse tilfellene.
 
 *Merk*: Per desember 2014 har vi fremdeles en del korporasjonsnavn igjen. Det er en langsiktig oppgave å rydde ut alle.
 
@@ -181,7 +184,7 @@ Dersom det geografiske området er behandlet generelt i en bestemt form eller sj
     ```
 
 
-## Regler for indeksering av spesielle emner
+## Spesielle emner
 
 ### Biografier/omtalte personer og sekundærlitteratur 
 
@@ -285,10 +288,57 @@ i tillegg til emneterm for kildespråk. Term for målspråk registreres som unde
     (tilsv. strengene `Teknikk : Terminologi`, `Teknikk : Ordbøker` og ` Norsk språk : Engelsk språk : Ordbøker`)
 
 
+** Ekstra **
+
+*Eksempler:*
+
+* Strengen `Fugler : Antikken` registreres som 
+
+    ```
+    687 $a Fugler
+    648 $a Antikken
+    ```
+
+* Strengen `Fugler : Bestemmelseslitteratur` registreres som  
+
+    ```
+    687 $a Fugler
+    655 $a Bestemmelseslitteratur
+    ```
+
+* Strengen `Fugler : Costa Rica` registreres som
+
+    ```
+    687 $a Fugler
+    651 $b Costa Rica
+    ```
+
+* Strengen `Fugler : Taksonomi` registreres som
+
+    ```
+    687 $a Fugler $b Taksonomi
+    ```
+
+* Felt registreres bare én gang selv om de benyttes i
+  flere strenger. Om alle de fire ovenstående strengene
+  skulle registreres på samme dokument, ville
+  `687 $a Fugler` fremdeles bare registreres én gang:
+
+    ```
+    687 $a Fugler $b Taksonomi
+    687 $a Fugler 
+    648 $a Antikken
+    651 $a Costa Rica
+    655 $a Bestemmelseslitteratur
+    ```
+
+## Noter
+
+Til noen av termene finnes det interne noter som gir
+anvisning for bruk av termen.
+
+
 **Fotnoter:**
 
 [^1]: Hjortsæter, E. Emneordskatalogisering: innholdsanalyse, emnerepresentasjon og lagring. 2005, Oslo: Høgskolen i Oslo, Avdeling journalistikk, bibliotek- og informasjonsfag, s. 73-74.
-
-
-
 

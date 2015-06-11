@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/scripts/gfranko-jquery.tocify.js/src/stylesheets/jquery.tocify.css">
+        <link rel="stylesheet" href="/scripts/fontello/css/fontello.css">
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="/scripts/typeahead.bundle.min.js"></script>
+        <script src="/scripts/jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+        <script src="/scripts/gfranko-jquery.tocify.js/src/javascripts/jquery.tocify.min.js"></script>
+    </head>
+    <body>
+
+        <nav class="fixed-nav-bar">
+            <h1 class="title">
+                <a href="/">Realfagstermer</a>
+            </h1>
+            <ul>
+                <li>
+                    <a href="/changes/">Endringer</a>
+                </li>
+                <!--
+                <li>
+                    <a href="/retningslinjer.html">Retningslinjer</a>
+                </li>
+                <li>
+                    <a href="/nb/teatertrupp.html">Teatertrupp</a>
+                </li>-->
+            </ul>            
+        </nav>
+            
+        
+<!--
+                <input type="text">
+-->
+
+<!--
+            <div style="height:2em;">
+                <div id="remote">
+                    <input class="typeahead" type="text" placeholder="Søk (beta, kan være utilgjengelig i perioder)">
+                </div>
+            </div>
+-->
+
+        <div id="toc"></div>
+<!--
+        <div class="results" style="background:#fff;padding:2em;font-size:90%; box-shadow:1px 1px 1px #ddd; margin:0 .2em; border-radius: 0 0 3px 3px;"></div>
+-->
+<div style="  margin-top: 5em;">
+        <div class="content">
+          {{ content }}
+        </div>
+</div>
+        <footer>
+            <div>
+            Kontakt |
+            <a href="https://github.com/realfagstermer">GitHub</a>
+            |
+            <a href="http://datahub.io/dataset/realfagstermer">Datahub</a>
+                
+            </div>
+        </footer>
+
+        <script>
+         //Executes your code when the DOM is ready.  Acts the same as $(document).ready().
+              $(function() {
+                  //Calls the tocify method on your HTML div.
+                  $("#toc").tocify({
+                    'selectors': 'h2,h3,h4'
+                  });
+              });
+              
+              </script>
+
+    </body>
+</html>

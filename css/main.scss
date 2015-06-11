@@ -6,6 +6,7 @@
 $font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #3d3d3d;
 $h-padding: 1em;
+$navheight: 40px;
 
 $keyword-color: #ff6603;
 // $keyword-color: #d26911;
@@ -15,6 +16,8 @@ $link-color: #4183c4;
 
 $header-color: #666;
 $content-width: 42em;
+
+$left-menu-width: 20%;
 /* Mixins */
 
 @mixin transition($transition-property, $transition-time, $method) {
@@ -58,33 +61,117 @@ html, body {
   font-weight: 400;
 }
 
-nav {
-  margin: 2em 0;
-  border-bottom: 1px solid #dddddd;
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $navheight;
+  background: #333;
+  box-shadow: 0px 2px 2px #999;
+  z-index: 999;
+  opacity: 0.95;
+  /* {
+    max-width: $content-width;    
+  }*/
+  /*  border-bottom: 1px solid #dddddd;
   border-top: 1px solid #eeeeee;
   background: #fff;
   box-shadow: 1px 1px 1px #eeeeee;
-  header {
-    margin: 0 auto;
-    max-width: $content-width;
-    padding: 1.3em $h-padding 1.3em $h-padding;
-    @include background-image("logo", 3em);
-    background-position: $h-padding center;
-    background-repeat: no-repeat;
-    h1 {
-      font-size: 2em;
-      margin: 0;
-      padding: 0 0 0 1.8em;
-      letter-spacing: 0.05em;
+  */
+  div {
+    margin-left: $left-menu-width + 3%;
+    padding-left: 78px;
+    margin-bottom: .7em;
+    margin-top: -1.4em;
+  }
 
-      a:link, a:visited {
-        color: $header-color;
-        &:hover {
-          text-decoration: none;
-        }
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 12px;
+    box-sizing: border-box;
+    &:visited {
+      color: #fff;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  span {
+    display: inline-block;
+    height: $navheight;
+  }
+
+  h1 {
+    margin: 0;
+    float:left;
+    height: $navheight;
+    font-size: 1.2em;
+    line-height: 0.9 * $navheight;
+    font-weight: normal;
+    vertical-align: middle;
+    a:link, a:visited {
+      @include background-image("logo", 1.3em);
+      background-position: 15px 0.1 * $navheight;
+      background-repeat: no-repeat;
+      padding: 0 15px 0 45px;
+      height: 100%;
+      display:inline-block;
+      letter-spacing: 0.05em;
+      color: white; /*rgb(255,109,0);*/
+      &:hover {
+        text-decoration: none;
+        background-color: #444;
       }
     }
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 100%;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    position: relative;
+
+    a {
+      display: block;
+      text-align: center;
+      height: 100%;
+
+      &:hover {
+        text-decoration: none;
+        background-color: #444;
+      }
+
+    }
+  }
+
+  input {
+    float:right;
+    margin-right: 6%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 110%;
+    border: 3px solid #ddd;
+    border-radius:3px;
+  }
+  input {
+    outline: none;
+  }
+  input:focus {
+    border:3px solid #bbb;
+  }
+
 }
 
 footer {
@@ -104,8 +191,8 @@ footer {
 }
 
 .content {
-  max-width: $content-width;
-  margin: 3em auto 2em;
+  margin-left: $left-menu-width + 3%;
+  margin-right: 5%;
   padding: 0 $h-padding;
 }
 
@@ -130,6 +217,91 @@ h2 {
 
 }
 
+a[href*='ordliste.html'] {
+  border-bottom: 1px dotted #888;
+}
+
+.changelist {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.changelist table {
+  font-size:88%;
+  width:100%;
+}
+.changelist td, 
+.changelist th {
+  padding: 0;
+}
+.changelist th {
+  padding-right:.8em;
+  padding-left:.8em;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.changelist table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.changelist table th {
+  color: #888;
+  text-align: right;
+  font-weight: normal;
+}
+.changelist .header {
+  font-size: 120%;
+}
+.changelist h3 {
+  margin: .2em 0 0 0;
+  padding: .2em 0 0 0;
+}
+.changelist a {
+  font-style: italic;
+}
+.changelist .added:not(:last-child):after, .changelist .removed:not(:last-child):after {
+  content: ',';
+  font-weight: bold;
+  background-color: #fff;
+}
+.changelist .added:not(:last-child), .changelist .removed:not(:last-child) {
+  margin-right: .2em;
+}
+.changelist .added:first-child:before {
+  content: '+ ';
+  font-weight: bold;
+  background-color: #fff;
+}
+.changelist .removed:first-child:before {
+  content: '– ';
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.changelist .added {
+  background: #cfc;
+}
+.changelist .removed {
+  background: #fcc;
+}
+.changelist ul {
+    -webkit-column-width:       250px;
+    -moz-column-width:      250px;
+    -o-column-width:        250px;
+    -ms-column-width:       250px;
+    column-width:           250px;
+
+    -webkit-column-rule-style:  solid;
+    -moz-column-rule-style:     solid;
+    -o-column-rule-style:       solid;
+    -ms-column-rule-style:      solid;
+    column-rule-style:      solid;
+}
+
+li.added:before {
+  content: '\e800';
+}
+
 p {
   margin: 1em 0;
 }
@@ -139,7 +311,7 @@ tt {
   font-size: 95%;
 }
 
-a {
+.content a {
   color: $link-color;
   text-decoration: none;
   @include transition(all, 0.3s, linear);
@@ -190,19 +362,76 @@ code {
   margin-left: 1.35em;
 }
 
-input {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 5px;
-  font-size: 110%;
-  border: 3px solid #ddd;
-  border-radius:3px;
+/*
+ * jquery.tocify.css 1.9.0
+ * Author: @gregfranko
+ */
+
+/* The Table of Contents container element */
+.tocify {
+    width: $left-menu-width;
+    max-height: 90%;
+    overflow: auto;
+    margin-left: 0;
+    position: fixed;
+    border: 1px solid #ccc;
+    webkit-border-radius: 6px;
+    moz-border-radius: 6px;
+    border-radius: 6px;
+    background:white;
 }
-input {
-  outline: none;
+
+@media screen and (max-width:600px){
+   .tocify {display: none; }
+   .content { margin-left: 5%; }
 }
-input:focus {
-  border:3px solid #bbb;
+
+/* The Table of Contents is composed of multiple nested unordered lists.  These styles remove the default styling of an unordered list because it is ugly. */
+.tocify ul, .tocify li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 30px;
+}
+
+/* Top level header elements */
+.tocify-header {
+    text-indent: 10px;
+}
+
+/* Top level subheader elements.  These are the first nested items underneath a header element. */
+.tocify-subheader {
+    text-indent: 20px;
+    display: none;
+}
+
+/* Makes the font smaller for all subheader elements. */
+.tocify-subheader li {
+    font-size: 12px;
+}
+
+/* Further indents second level subheader elements. */
+.tocify-subheader .tocify-subheader {
+    text-indent: 30px;
+}
+
+/* Further indents third level subheader elements. You can continue this pattern if you have more nested elements. */
+.tocify-subheader .tocify-subheader .tocify-subheader {
+    text-indent: 40px;
+}
+
+/* Twitter Bootstrap Override Style */
+.nav-list > li > a, .nav-list .nav-header {
+    margin: 0px;
+}
+
+/* Twitter Bootstrap Override Style */
+.nav-list > li > a {
+    padding: 5px;
+}
+.nav-list > li.active {
+    background:#eeeeee;
 }
 
 /*********************************************************
