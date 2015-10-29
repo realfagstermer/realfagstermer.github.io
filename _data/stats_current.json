@@ -1,9 +1,9 @@
 {
-  "concepts": 30078, 
-  "conceptsWithoutStrings": 14331, 
+  "concepts": 29981, 
+  "conceptsWithoutStrings": 14252, 
   "facets": {
     "ComplexSubject": {
-      "concepts": 15747, 
+      "concepts": 15729, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -11,33 +11,33 @@
       "altLabels": {
         "en": 2, 
         "la": 0, 
-        "nb": 96, 
+        "nb": 99, 
         "nn": 0
       }, 
-      "concepts": 122, 
+      "concepts": 123, 
       "prefLabels": {
-        "en": 13, 
+        "en": 14, 
         "la": 0, 
-        "nb": 122, 
+        "nb": 123, 
         "nn": 2
       }, 
-      "terms": 235
+      "terms": 240
     }, 
     "Geographic": {
       "altLabels": {
         "en": 7, 
         "la": 0, 
-        "nb": 38, 
+        "nb": 39, 
         "nn": 2
       }, 
-      "concepts": 876, 
+      "concepts": 875, 
       "prefLabels": {
-        "en": 14, 
+        "en": 15, 
         "la": 1, 
-        "nb": 876, 
+        "nb": 875, 
         "nn": 5
       }, 
-      "terms": 943
+      "terms": 944
     }, 
     "Temporal": {
       "altLabels": {
@@ -57,29 +57,29 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 159, 
+        "en": 161, 
         "la": 10, 
-        "nb": 2608, 
+        "nb": 2685, 
         "nn": 24
       }, 
-      "concepts": 13311, 
+      "concepts": 13232, 
       "prefLabels": {
-        "en": 2107, 
+        "en": 2116, 
         "la": 266, 
-        "nb": 13311, 
-        "nn": 79
+        "nb": 13232, 
+        "nn": 82
       }, 
-      "terms": 18564
+      "terms": 18576
     }
   }, 
   "features": {
     "broadMatch": 9, 
     "closeMatch": 15, 
-    "definition": 374, 
-    "editorialNote": 138, 
+    "definition": 379, 
+    "editorialNote": 142, 
     "exactMatch": 3265, 
     "narrowMatch": 34, 
-    "related": 920, 
+    "related": 941, 
     "relatedMatch": 1
   }, 
   "mappings": {
@@ -88,12 +88,12 @@
     "tekord": 3107
   }, 
   "terms": {
-    "null": 492, 
-    "_sum": 36023, 
-    "en": 2302, 
+    "null": 491, 
+    "_sum": 36022, 
+    "en": 2315, 
     "la": 277, 
-    "nb": 32840, 
-    "nn": 112
+    "nb": 32824, 
+    "nn": 115
   }, 
-  "ts": 1444658040
+  "ts": 1446104991
 }
