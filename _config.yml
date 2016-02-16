@@ -1,9 +1,5 @@
 name: Realfagstermer
-markdown: redcarpet
-highlighter: pygments
 gems:
   - jekyll-redirect-from
   - jekyll-sass-converter
   - jemoji
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "footnotes", "highlight"]
