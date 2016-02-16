@@ -5,13 +5,14 @@ title: Realfagstermer
 
 
 <div id="home">
-    
+
     <p>
         Realfagstermer er et flerspråklig, begrepsbasert vokabular, der hvert begrep er identifisert ved
         en identifikator, og beskrevet med minst én foretrukket term på bokmål. I tillegg kan begreper ha
         foretrukne termer på andre språk og alternative termer (synonymer, akronymer, osv.).
         Vokabularet er nokså ungt, så det gjenstår fremdeles mye arbeid med utvikling og kvalitetssikring.
         <a href="http://ub.uio.no/om/tjenester/emneord/realfagstermer.html">Mer om vokabularet</a>.
+        <a href="http://skosmos.biblionaut.net">Søk i vokabularet via Skosmos</a>.
     </p>
 
     <h2>
@@ -20,11 +21,11 @@ title: Realfagstermer
 
     <p>
         Sist endret <a href="https://github.com/realfagstermer/realfagstermer/commits/master">{{ site.data.stats_current.ts | date: '%d.%m.%Y kl. %H' }}</a>.
-        Dump tilgjengelig som
+        Datadump er tilgjengelig på <a href="http://data.ub.uio.no/dumps/">data.ub.uio.no</a> som
         <a href="http://data.ub.uio.no/dumps/realfagstermer.ttl">Turtle</a> |
         <a href="http://data.ub.uio.no/dumps/realfagstermer.rdf.xml">RDF/XML</a> |
         <a href="http://data.ub.uio.no/dumps/realfagstermer.nt">Ntriples</a> |
-        <s><a href="http://data.ub.uio.no/dumps/realfagstermer.marc21.xml">MARC21</a></s>
+        <a href="http://data.ub.uio.no/dumps/realfagstermer.marc21.xml">MARC21</a>
     </p>
 
     <p>
@@ -93,7 +94,7 @@ title: Realfagstermer
     </h2>
     
     <p>
-        Begrepet <a href="http://data.ub.uio.nu/realfagstermer/006839">&lt;http://data.ub.uio.no/realfagstermer/006839&gt;</a>
+        Begrepet <a href="http://data.ub.uio.nu/realfagstermer/c006839">&lt;http://data.ub.uio.no/realfagstermer/c006839&gt;</a>
         er et eksempel på et godt utbygd begrep i Realfagstermer.
         Begrepet har til sammen sju termer, inkludert vitenskapelig navn på latin.
         Med <tt>skos:narrower</tt> er det angitt lenker til smalere begreper (strenger identifisert ved deres URIer),
@@ -106,23 +107,39 @@ title: Realfagstermer
     -->
 
     {% highlight python %}
-<http://data.ub.uio.no/realfagstermer/006839> a mads:Topic,
+@prefix realfagstermer: <http://data.ub.uio.no/realfagstermer/> .
+
+realfagstermer:c006839 a mads:Topic,
         skos:Concept ;
     dcterms:created "2014-08-25"^^xsd:date ;
     dcterms:modified "2014-11-12"^^xsd:date ;
     dcterms:identifier "REAL006839" ;
     skos:prefLabel "Flerbørstemarker"@nb,
+        "Fleirbørstemakkar"@nn,
         "Polychaeta"@la ;
-    skos:altLabel "Flerbørsteormer"@nb,
-        "Mangebørstemark"@nb,
-        "Mangebørsteormer"@nb,
-        "Havbørsteormer"@nb,
+    skos:altLabel "Havbørstemark"@nb,
         "Havbørstemarker"@nb,
-        "Polycheter"@nb.
-    skos:inScheme <http://data.ub.uio.no/realfagstermer/> ;
-    skos:narrower <http://data.ub.uio.no/realfagstermer/018529>,
-        <http://data.ub.uio.no/realfagstermer/024538>,
-        <http://data.ub.uio.no/realfagstermer/026723> ;
+        "Flerbørsteormer"@nb,
+        "Havbørsteormer"@nb,
+        "Havbørstemark"@nn,
+        "Fleirbørsteormar"@nn,
+        "Havbørsteormar"@nn,
+        "Mangebørstemark"@nb,
+        "Mangebørstemark"@nn,
+        "Havbørstemarkar"@nn,
+        "Mangebørstemakk"@nn,
+        "Havbørstemakk"@nn,
+        "Havbørstemakkar"@nn,
+        "Fleirbørstemarkar"@nn,
+        "Mangebørsteormer"@nb,
+        "Mangebørsteormar"@nn,
+        "Polychetar"@nn,
+        "Polycheter"@nb ;
+    skos:related realfagstermer:c002925 ;
+    skos:inScheme realfagstermer: ;
+    skos:narrower realfagstermer:c018529>,
+        realfagstermer:c024538>,
+        realfagstermer:c026723> ;
     skos:exactMatch <http://ntnu.no/ub/data/tekord#NTUB17114>,
         <http://dewey.info/class/592.62/e23/>,
         <http://aims.fao.org/aos/agrovoc/c_29110> .
