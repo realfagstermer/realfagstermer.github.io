@@ -9,7 +9,7 @@ title: Retningslinjer
 
 ## Innledning
 
-Formålet med emneordsindekseringen er å beskrive dokumentene slik at gjenfinningen blir mest mulig *presis* og *fullstendig*: Det relevante blir funnet, det ikke-relevante blir utelatt. Emneordene brukes først og fremst til søking, men er også nyttige for vurdering av dokumentets relevans.==[Hvordan da?]==
+Formålet med emneordsindekseringen er å beskrive dokumentene slik at gjenfinningen blir mest mulig *presis* og *fullstendig*: Det relevante blir funnet, det ikke-relevante blir utelatt. Emneordene brukes først og fremst til søking, men er også nyttige for å vurdere dokumentets relevans uten å ha det i hånda.
 
 Disse retningslinjene følger [Humords indekseringsregler](http://bibsys.no/files/pdf/handbok/humord_indekseringsregler_handbok.pdf) så langt det er mulig. Regler og eksempler er hentet derfra der det er relevant. For ordforklaringer, *se [ordliste](ordliste.html)*.
 
@@ -17,7 +17,7 @@ Disse retningslinjene følger [Humords indekseringsregler](http://bibsys.no/file
 Emneord skal aldri skrives inn manuelt, men limes inn fra Roald. Dette er fordi selv
 det mest pertentlige menneske ikke kan garantere 100 % enhetlig skrivemåte. Innliming sikrer også
 at termene legges i korrekt felt,
-og at emneordskilden (Realfagstermer) registreres korrekt som `$2 no-ubo-mn`.
+og at emneordskilden (Realfagstermer) registreres korrekt som `$2 noubomn`.
 
 :bulb: Årsaken til at vi benytter metoden *innliming* skyldes at Bibsys ikke per i dag tilbyr et tilfredsstillende *programmeringsgrensesnitt*.
 Ved overgangen til Alma antar vi at mulighetene for direkteredigering fra Roald vil være tilstede,
@@ -75,10 +75,10 @@ Termene registreres altså i de bibliografiske postene som frittstående emneord
 postkoordinert gjenfinning, med unntak av emnetermer som kan registreres som `Hovedemne : Underordnet emne`:
 
 ```
-687 $a Emneterm $b Underemneterm $2 no-ubo-mn
-648 $a Tidterm $2 no-ubo-mn
-651 $a Stedterm $2 no-ubo-mn
-655 $a Formterm $2 no-ubo-mn
+650 $a Emneterm $x Underemneterm $2 noubomn
+648 $a Tidterm $2 noubomn
+651 $a Stedterm $2 noubomn
+655 $a Formterm $2 noubomn
 ```
 
 ### Fasett: Emne
@@ -89,18 +89,18 @@ Termene skal beskrive dokumentets innhold, hva dokumentet handler om. Der det er
 
 *Eksempler:*
 
-* `687 $a Akustiske bølger`
-* `687 $a Fugler`
-* `687 $a Kopper (grunnstoff)`
-* `687 $a Kopper (sykdom)`
-* `687 $a Kart`
+* `650 $a Akustiske bølger`
+* `650 $a Fugler`
+* `650 $a Kopper (grunnstoff)`
+* `650 $a Kopper (sykdom)`
+* `650 $a Kart`
 
-Du kan velge å legge inn et underemne i `$b` som avgrenser hovedemnet. *Eksempler*:
+Du kan velge å legge inn et underemne i `$x` som avgrenser hovedemnet. *Eksempler*:
 
-* `687 $a Amfibier $b Reproduksjon` (ikke: Amfibiereproduksjon)
-* `687 $a Fugler $b Taksonomi` (ikke: Fugletaksonomi)
+* `650 $a Amfibier $x Reproduksjon` (ikke: Amfibiereproduksjon)
+* `650 $a Fugler $x Taksonomi` (ikke: Fugletaksonomi)
 
-Ofte vil underinndeling/avgrensing av hovedemnet ved hjelp av `$b` gjøres ved hjelp av ord med så generell betydning at det gir liten mening hvis det står alene. Det kalles innholdsbeskrivende emneord av allmenn karakter[^1]. Eks: 
+Ofte vil underinndeling/avgrensing av hovedemnet ved hjelp av `$x` gjøres ved hjelp av ord med så generell betydning at det gir liten mening hvis det står alene. Det kalles innholdsbeskrivende emneord av allmenn karakter[^1]. Eks: 
 `Regulering`, `Påvirkning`, `Reaksjoner`. *Eksempler*:
 
 * `Metabolisme : Regulering`
@@ -138,7 +138,7 @@ Tidtermer registreres i marcfelt 648. Noen vil legge merke til at tidtermen dubl
 Tidtermer kan opptre i streng som avgrensing av et annet emne. *Eksempel* fra `The quest for the invisible : microscopy in the Enlightenment`:
 
 ```
-687 $a Mikroskopi
+650 $a Mikroskopi
 648 $a Opplysningstiden
 ```
 
@@ -154,7 +154,7 @@ Vanligvis vil en stedterm være en avgrensing av et annet emne.
 * Eksempel: Strengen `Vegetasjonskartlegging : Norge` er registrert på dokumentet `Truete vegetasjonstyper i Norge` som:
 
     ```
-    687 $a Vegetasjonskartlegging
+    650 $a Vegetasjonskartlegging
     651 $a Norge
     ```
   
@@ -178,9 +178,9 @@ Dersom det geografiske området er behandlet generelt i en bestemt form eller sj
 * Strengene `Norge : Historie` og `Geografi : Norge` er registrert på dokumentet `Norge` som:
  
     ```
+    650 $a Geografi
     651 $a Norge 
     655 $a Historie 
-    687 $a Geografi
     ```
 
 
@@ -234,7 +234,7 @@ i tillegg til emneterm for kildespråk. Term for målspråk registreres som unde
 
 * [Nynorskordboka](http://katapi.biblionaut.net/documents/show/061377104):
     ```
-    687 $a Nynorsk
+    650 $a Nynorsk
     655 $a Ordbøker
     ```
 
@@ -243,7 +243,7 @@ i tillegg til emneterm for kildespråk. Term for målspråk registreres som unde
 * Tysk-norsk ordbok
 
     ```
-    687 $a Tysk språk $b Norsk språk
+    650 $a Tysk språk $x Norsk språk
     655 $a Ordbøker
     ```
 
@@ -252,38 +252,35 @@ i tillegg til emneterm for kildespråk. Term for målspråk registreres som unde
 * Arabisk-norsk-engelsk ordbok
 
     ```
-    687 $a Arabisk språk $b Norsk språk
-    687 $a Arabisk språk $b Engelsk språk
+    650 $a Arabisk språk $x Norsk språk
+    650 $a Arabisk språk $x Engelsk språk
     655 $a Ordbøker
     ```
 
     (tilsvarer strengene `Arabisk språk : Norsk språk : Ordbøker` og
     `Arabisk språk : Engelsk språk : Ordbøker`.
 
-* Fagordbøker får i tillegg term for fagområde og formtermen
-  [Terminologi](http://data.ub.uio.no/realfagstermer/c030165). Eksempel fra
+* Fagordbøker får i tillegg term for fagområde, og formtermen
+  [Terminologi](http://data.ub.uio.no/realfagstermer/c030165) hvis den er relevant. Eksempel fra
 
- * [Biologisk ordbok]()???
+ * [Norsk geologisk ordbok](https://okapi.biblionaut.net/documents/54c7ac911e02e5d02d9d5ab5)
 
     ```
-    687 $a Biologi
-    655 $a Terminologi
+    650 $a Geologi
     655 $a Ordbøker
     ```
 
-    (tilsv. strengene `Biologi : Terminologi` og `Biologi : Ordbøker`
-    ==Obs! stemmer ikke med faktisk innførsel==
+    (tilsv. strengen `Geologi : Ordbøker`
+    
 
- * [Norsk-engelsk teknisk ordbok](http://katapi.biblionaut.net/documents/show/900606878)
+ * [Norsk-engelsk teknisk ordbok](https://okapi.biblionaut.net/documents/54c7d41f1e02e5d02dab5921)
 
     ```
-    687 $a Teknikk
-    687 $a Norsk språk $b Engelsk språk
+    650 $a Teknikk
+    650 $a Norsk språk $x Engelsk språk
     655 $a Ordbøker
     655 $a Terminologi
     ```
-
-    ==Obs! stemmer ikke med faktisk innførsel==
 
     (tilsv. strengene `Teknikk : Terminologi`, `Teknikk : Ordbøker` og ` Norsk språk : Engelsk språk : Ordbøker`)
 
@@ -295,38 +292,38 @@ i tillegg til emneterm for kildespråk. Term for målspråk registreres som unde
 * Strengen `Fugler : Antikken` registreres som 
 
     ```
-    687 $a Fugler
+    650 $a Fugler
     648 $a Antikken
     ```
 
 * Strengen `Fugler : Bestemmelseslitteratur` registreres som  
 
     ```
-    687 $a Fugler
+    650 $a Fugler
     655 $a Bestemmelseslitteratur
     ```
 
 * Strengen `Fugler : Costa Rica` registreres som
 
     ```
-    687 $a Fugler
+    650 $a Fugler
     651 $b Costa Rica
     ```
 
 * Strengen `Fugler : Taksonomi` registreres som
 
     ```
-    687 $a Fugler $b Taksonomi
+    650 $a Fugler $x Taksonomi
     ```
 
 * Felt registreres bare én gang selv om de benyttes i
   flere strenger. Om alle de fire ovenstående strengene
   skulle registreres på samme dokument, ville
-  `687 $a Fugler` fremdeles bare registreres én gang:
+  `650 $a Fugler` fremdeles bare registreres én gang:
 
     ```
-    687 $a Fugler $b Taksonomi
-    687 $a Fugler 
+    650 $a Fugler $x Taksonomi
+    650 $a Fugler 
     648 $a Antikken
     651 $a Costa Rica
     655 $a Bestemmelseslitteratur
