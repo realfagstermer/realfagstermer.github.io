@@ -35,14 +35,14 @@ Emneordene skal gi en dekkende beskrivelse av det dokumentet spesielt handler om
 
 *Eksempler:*
 
-* En bok om solur får emneordet [Solur](http://data.ub.uio.no/realfagstermer/008719),
-  ikke [Fysikk](http://data.ub.uio.no/realfagstermer/003067).
-* En bok om spekkhoggere får emneord [Spekkhoggere](http://data.ub.uio.no/realfagstermer/010898),
-  ikke [Hvaler](http://data.ub.uio.no/realfagstermer/005007).
-* En bok om bartrær får emneordet [Bartrær](http://data.ub.uio.no/realfagstermer/001526),
-  ikke trær.
-* En bok om Blankvann får emneordet [Blankvann](http://data.ub.uio.no/realfagstermer/030657),
-  ikke [Oslo](http://data.ub.uio.no/realfagstermer/030208).
+* En bok om solur får emneordet [Solur](http://data.ub.uio.no/realfagstermer/c008719),
+  ikke [Fysikk](http://data.ub.uio.no/realfagstermer/c003067).
+* En bok om spekkhoggere får emneord [Spekkhoggere](http://data.ub.uio.no/realfagstermer/c010898),
+  ikke [Hvaler](http://data.ub.uio.no/realfagstermer/c005007).
+* En bok om bartrær får emneordet [Bartrær](http://data.ub.uio.no/realfagstermer/c001526),
+  ikke [Trær](http://data.ub.uio.no/realfagstermer/c000468).
+* En bok om Blankvann får emneordet [Blankvann](http://data.ub.uio.no/realfagstermer/c030657),
+  ikke [Oslo](http://data.ub.uio.no/realfagstermer/c030208).
 
 *Unntak:*
 
@@ -54,7 +54,7 @@ Realfagstermer er laget med utgangspunkt i samlingene i bibliotekene som utgjord
 
 Realfagstermer skal ikke inneholde [korporasjonsnavn](ordliste.html#korporasjon) eller navn på historiske personer. Slike navn normeres etter katalogiseringsreglene, og registreres obligatorisk i andre MARC-felt. Fagreferentene må gi beskjed til katalogisator i disse tilfellene.
 
-*Merk*: Per desember 2014 har vi fremdeles en del korporasjonsnavn igjen. Det er en langsiktig oppgave å rydde ut alle.
+*Merk*: Per juni 2016 har vi fremdeles en del korporasjonsnavn igjen. Det er en langsiktig oppgave å rydde ut alle.
 
 ## Fasetter og strenger
 
@@ -69,7 +69,7 @@ bygges i indekseringsprosessen, men lagres i autoritetsdataene så de kan brukes
 * I de bibliografiske postene registreres kun én type strenger, nemlig `Emneterm : Underemneterm`.
   Sted-, tid- og formtermer lagres i egne marcfelt.
 * I autoritetspostene lagres i tillegg strenger som inneholder stedtermer, tidtermer og formtermer.
-  Disse presenteres blant annet i [Emneordsøk mot BIBSYS](http://app.uio.no/ub/emnesok/?id=UREAL).
+  Disse presenteres blant annet i [Emnesøk](https://app.uio.no/ub/emnesok/realfagstermer/).
 
 Termene registreres altså i de bibliografiske postene som frittstående emneord for
 postkoordinert gjenfinning, med unntak av emnetermer som kan registreres som `Hovedemne : Underordnet emne`:
@@ -208,7 +208,7 @@ Dersom det geografiske området er behandlet generelt i en bestemt form eller sj
         Merk at vi fremdeles bruker `600 Emneinnførsel personnavn`.
         ==Når kan vi bruke `630 Emneinnførsel standardtittel`?==
 
-* For biografier registreres formtermen [Biografier](http://data.ub.uio.no/realfagstermer/030117). *Eksempler*:
+* For biografier registreres formtermen [Biografier](http://data.ub.uio.no/realfagstermer/c030117). *Eksempler*:
 
  * [Kristine Bonnevie : et forskerliv](http://katapi.biblionaut.net/documents/show/121695743) :
    Her registreres *omtalt person* (600) fra personautoritetsregisteret, og form/sjanger (655)
@@ -228,7 +228,7 @@ Dersom det geografiske området er behandlet generelt i en bestemt form eller sj
 
 ### Ordbøker
 
-Alle ordbøker får formtermen [Ordbøker](http://data.ub.uio.no/realfagstermer/030101)
+Alle ordbøker får formtermen [Ordbøker](http://data.ub.uio.no/realfagstermer/c030101)
 i tillegg til emneterm for kildespråk. Term for målspråk registreres som underemneterm.
 *Eksempler*:
 
@@ -261,7 +261,7 @@ i tillegg til emneterm for kildespråk. Term for målspråk registreres som unde
     `Arabisk språk : Engelsk språk : Ordbøker`.
 
 * Fagordbøker får i tillegg term for fagområde og formtermen
-  [Terminologi](http://data.ub.uio.no/realfagstermer/030165). Eksempel fra
+  [Terminologi](http://data.ub.uio.no/realfagstermer/c030165). Eksempel fra
 
  * [Biologisk ordbok]()???
 
