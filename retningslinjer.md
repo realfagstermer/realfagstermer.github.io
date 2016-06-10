@@ -5,7 +5,7 @@ title: Retningslinjer
 
 # Retningslinjer for indeksering
 
-*Sist oppdatert 19. desember 2014*
+*Sist oppdatert 10. juni 2016*
 
 ## Innledning
 
