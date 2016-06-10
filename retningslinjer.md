@@ -11,7 +11,7 @@ title: Retningslinjer
 
 Formålet med emneordsindekseringen er å beskrive dokumentene slik at gjenfinningen blir mest mulig *presis* og *fullstendig*: Det relevante blir funnet, det ikke-relevante blir utelatt. Emneordene brukes først og fremst til søking, men er også nyttige for å vurdere dokumentets relevans uten å ha det i hånda.
 
-Disse retningslinjene følger [Humords indekseringsregler](http://bibsys.no/files/pdf/handbok/humord_indekseringsregler_handbok.pdf) så langt det er mulig. Regler og eksempler er hentet derfra der det er relevant. For ordforklaringer, *se [ordliste](ordliste.html)*.
+Disse retningslinjene følger [Humords indekseringsregler](http://bibsys.no/files/pdf/handbok/humord_indekseringsregler_handbok.pdf) så langt det er mulig. Regler og eksempler er hentet derfra der det er relevant. Eksemplene er kodet med MARC 21. For ordforklaringer, *se [ordliste](ordliste.html)*.
 
 :warning: Vi bruker programmet [Roald](http://folk.uio.no/knuthe/progdist/) for indeksering.
 Emneord skal aldri skrives inn manuelt, men limes inn fra Roald. Dette er fordi selv
@@ -19,8 +19,8 @@ det mest pertentlige menneske ikke kan garantere 100 % enhetlig skrivemåte. In
 at termene legges i korrekt felt,
 og at emneordskilden (Realfagstermer) registreres korrekt som `$2 noubomn`.
 
-:bulb: Årsaken til at vi benytter metoden *innliming* skyldes at Bibsys ikke per i dag tilbyr et tilfredsstillende *programmeringsgrensesnitt*.
-Ved overgangen til Alma antar vi at mulighetene for direkteredigering fra Roald vil være tilstede,
+:bulb: Årsaken til at vi benytter metoden *innliming* skyldes at Alma ikke per i dag tilbyr tilfredsstillende *funksjonalitet*.
+Etter overgangen til Alma prøver vi ut direkteredigering fra Roald,
 men det gjenstår foreløpig å utvikle arbeidsflyten for indeksering i nytt biblioteksystem.
 
 ## Indekseringsnivå
