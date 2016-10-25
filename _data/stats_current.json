@@ -1,5 +1,5 @@
 {
-  "concepts": 30090, 
+  "concepts": 30091, 
   "conceptsWithoutStrings": 14300, 
   "facets": {
     "CompoundConcept": {
@@ -72,7 +72,7 @@
       "terms": 37045
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14835, 
+      "concepts": 14836, 
       "prefLabels": {}, 
       "terms": 0
     }
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54076, 
+    "_sum": 54077, 
     "en": 2510, 
     "la": 294, 
-    "nb": 33529, 
+    "nb": 33530, 
     "nn": 17743
   }, 
-  "ts": 1477343384
+  "ts": 1477386930
 }
