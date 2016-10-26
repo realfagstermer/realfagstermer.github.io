@@ -64,12 +64,12 @@
       }, 
       "concepts": 13277, 
       "prefLabels": {
-        "en": 2231, 
+        "en": 2232, 
         "la": 279, 
         "nb": 13277, 
         "nn": 13100
       }, 
-      "terms": 37048
+      "terms": 37049
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14836, 
@@ -80,7 +80,7 @@
   "features": {
     "broadMatch": 931, 
     "closeMatch": 1125, 
-    "definition": 404, 
+    "definition": 405, 
     "editorialNote": 155, 
     "exactMatch": 5662, 
     "narrowMatch": 0, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54080, 
-    "en": 2512, 
+    "_sum": 54081, 
+    "en": 2513, 
     "la": 294, 
     "nb": 33532, 
     "nn": 17742
   }, 
-  "ts": 1477487768
+  "ts": 1477491316
 }
