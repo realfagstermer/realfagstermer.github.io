@@ -1,5 +1,5 @@
 {
-  "concepts": 30115, 
+  "concepts": 30111, 
   "conceptsWithoutStrings": 14316, 
   "facets": {
     "CompoundConcept": {
@@ -57,47 +57,47 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 244, 
+        "en": 245, 
         "la": 15, 
-        "nb": 3302, 
-        "nn": 4645
+        "nb": 3312, 
+        "nn": 4653
       }, 
       "concepts": 13290, 
       "prefLabels": {
-        "en": 2274, 
+        "en": 2275, 
         "la": 281, 
         "nb": 13290, 
-        "nn": 13095
+        "nn": 13080
       }, 
-      "terms": 37146
+      "terms": 37151
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14837, 
+      "concepts": 14833, 
       "prefLabels": {}, 
       "terms": 0
     }
   }, 
   "features": {
     "broadMatch": 1186, 
-    "closeMatch": 1346, 
+    "closeMatch": 1351, 
     "definition": 415, 
     "editorialNote": 155, 
-    "exactMatch": 6193, 
+    "exactMatch": 6200, 
     "narrowMatch": 0, 
     "related": 1025, 
     "relatedMatch": 2654
   }, 
   "mappings": {
     "agrovoc": 1, 
-    "ddc": 7445, 
+    "ddc": 7456, 
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54212, 
-    "en": 2570, 
+    "_sum": 54213, 
+    "en": 2572, 
     "la": 297, 
-    "nb": 33593, 
-    "nn": 17752
+    "nb": 33599, 
+    "nn": 17745
   }, 
-  "ts": 1479777484
+  "ts": 1479863816
 }
