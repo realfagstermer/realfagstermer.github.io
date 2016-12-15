@@ -67,9 +67,9 @@
         "en": 2308, 
         "la": 288, 
         "nb": 13307, 
-        "nn": 13045
+        "nn": 13044
       }, 
-      "terms": 37279
+      "terms": 37278
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14825, 
@@ -78,26 +78,26 @@
     }
   }, 
   "features": {
-    "broadMatch": 1399, 
+    "broadMatch": 1400, 
     "closeMatch": 1492, 
     "definition": 436, 
     "editorialNote": 155, 
-    "exactMatch": 6526, 
+    "exactMatch": 6542, 
     "narrowMatch": 0, 
     "related": 1054, 
-    "relatedMatch": 2983
+    "relatedMatch": 2996
   }, 
   "mappings": {
     "agrovoc": 1, 
-    "ddc": 8408, 
+    "ddc": 8438, 
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54335, 
+    "_sum": 54334, 
     "en": 2625, 
     "la": 305, 
     "nb": 33660, 
-    "nn": 17745
+    "nn": 17744
   }, 
-  "ts": 1481677796
+  "ts": 1481764381
 }
