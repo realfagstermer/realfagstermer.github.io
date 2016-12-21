@@ -1,9 +1,9 @@
 {
-  "concepts": 30102, 
-  "conceptsWithoutStrings": 14335, 
+  "concepts": 30106, 
+  "conceptsWithoutStrings": 14339, 
   "facets": {
     "CompoundConcept": {
-      "concepts": 964, 
+      "concepts": 968, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -30,74 +30,74 @@
         "nb": 56, 
         "nn": 2
       }, 
-      "concepts": 879, 
+      "concepts": 880, 
       "prefLabels": {
         "en": 25, 
         "la": 1, 
-        "nb": 879, 
+        "nb": 880, 
         "nn": 6
       }, 
-      "terms": 978
+      "terms": 979
     }, 
     "Time": {
       "altLabels": {
         "en": 0, 
         "la": 0, 
-        "nb": 20, 
-        "nn": 0
+        "nb": 21, 
+        "nn": 1
       }, 
-      "concepts": 22, 
+      "concepts": 23, 
       "prefLabels": {
         "en": 0, 
         "la": 0, 
-        "nb": 22, 
-        "nn": 0
+        "nb": 23, 
+        "nn": 1
       }, 
-      "terms": 42
+      "terms": 46
     }, 
     "Topic": {
       "altLabels": {
-        "en": 273, 
+        "en": 305, 
         "la": 16, 
-        "nb": 3376, 
-        "nn": 4698
+        "nb": 3404, 
+        "nn": 4712
       }, 
-      "concepts": 13309, 
+      "concepts": 13311, 
       "prefLabels": {
-        "en": 2313, 
+        "en": 2323, 
         "la": 288, 
-        "nb": 13309, 
-        "nn": 13024
+        "nb": 13311, 
+        "nn": 13013
       }, 
-      "terms": 37297
+      "terms": 37372
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14803, 
+      "concepts": 14799, 
       "prefLabels": {}, 
       "terms": 0
     }
   }, 
   "features": {
-    "broadMatch": 1406, 
-    "closeMatch": 1496, 
-    "definition": 439, 
-    "editorialNote": 156, 
-    "exactMatch": 6560, 
+    "broadMatch": 1412, 
+    "closeMatch": 1508, 
+    "definition": 442, 
+    "editorialNote": 168, 
+    "exactMatch": 6578, 
     "narrowMatch": 0, 
-    "related": 1059, 
-    "relatedMatch": 3029
+    "related": 1061, 
+    "relatedMatch": 3054
   }, 
   "mappings": {
     "agrovoc": 1, 
-    "ddc": 8500, 
+    "ddc": 8561, 
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54331, 
-    "en": 2638, 
+    "_sum": 54411, 
+    "en": 2680, 
     "la": 305, 
-    "nb": 33654, 
-    "nn": 17734
+    "nb": 33687, 
+    "nn": 17739
   }, 
-  "ts": 1482196387
+  "ts": 1482282804
 }
