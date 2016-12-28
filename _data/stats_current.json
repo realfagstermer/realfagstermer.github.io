@@ -85,11 +85,11 @@
     "exactMatch": 6613, 
     "narrowMatch": 0, 
     "related": 1061, 
-    "relatedMatch": 3110
+    "relatedMatch": 3113
   }, 
   "mappings": {
     "agrovoc": 1, 
-    "ddc": 8677, 
+    "ddc": 8680, 
     "tekord": 810
   }, 
   "terms": {
@@ -99,5 +99,5 @@
     "nb": 33689, 
     "nn": 17738
   }, 
-  "ts": 1482455589
+  "ts": 1482887396
 }
