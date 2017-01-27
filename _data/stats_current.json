@@ -1,9 +1,9 @@
 {
-  "concepts": 30100, 
+  "concepts": 30103, 
   "conceptsWithoutStrings": 14342, 
   "facets": {
     "CompoundConcept": {
-      "concepts": 968, 
+      "concepts": 969, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -72,7 +72,7 @@
       "terms": 37593
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14790, 
+      "concepts": 14792, 
       "prefLabels": {}, 
       "terms": 0
     }
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54626, 
+    "_sum": 54629, 
     "en": 2787, 
     "la": 321, 
-    "nb": 33796, 
+    "nb": 33799, 
     "nn": 17722
   }, 
-  "ts": 1485393284
+  "ts": 1485479731
 }
