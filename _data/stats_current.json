@@ -1,9 +1,9 @@
 {
-  "concepts": 30103, 
+  "concepts": 30106, 
   "conceptsWithoutStrings": 14342, 
   "facets": {
     "CompoundConcept": {
-      "concepts": 969, 
+      "concepts": 971, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -72,7 +72,7 @@
       "terms": 37593
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14792, 
+      "concepts": 14793, 
       "prefLabels": {}, 
       "terms": 0
     }
@@ -82,7 +82,7 @@
     "closeMatch": 1544, 
     "definition": 460, 
     "editorialNote": 189, 
-    "exactMatch": 6656, 
+    "exactMatch": 6655, 
     "narrowMatch": 0, 
     "related": 1064, 
     "relatedMatch": 3195
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54629, 
+    "_sum": 54632, 
     "en": 2787, 
     "la": 321, 
-    "nb": 33799, 
+    "nb": 33802, 
     "nn": 17722
   }, 
-  "ts": 1485479731
+  "ts": 1485566169
 }
