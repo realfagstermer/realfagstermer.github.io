@@ -57,19 +57,19 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 388, 
+        "en": 394, 
         "la": 23, 
-        "nb": 3569, 
-        "nn": 4816
+        "nb": 3582, 
+        "nn": 4830
       }, 
       "concepts": 13319, 
       "prefLabels": {
-        "en": 2394, 
+        "en": 2398, 
         "la": 302, 
         "nb": 13319, 
-        "nn": 12873
+        "nn": 12871
       }, 
-      "terms": 37684
+      "terms": 37719
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14785, 
@@ -80,11 +80,11 @@
   "features": {
     "broadMatch": 1455, 
     "closeMatch": 1543, 
-    "definition": 476, 
-    "editorialNote": 196, 
+    "definition": 481, 
+    "editorialNote": 198, 
     "exactMatch": 6652, 
     "narrowMatch": 0, 
-    "related": 1065, 
+    "related": 1066, 
     "relatedMatch": 3195
   }, 
   "mappings": {
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54717, 
-    "en": 2834, 
+    "_sum": 54752, 
+    "en": 2844, 
     "la": 326, 
-    "nb": 33853, 
-    "nn": 17704
+    "nb": 33866, 
+    "nn": 17716
   }, 
-  "ts": 1486775786
+  "ts": 1487121344
 }
