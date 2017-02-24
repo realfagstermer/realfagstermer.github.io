@@ -1,5 +1,5 @@
 {
-  "concepts": 30094, 
+  "concepts": 30093, 
   "conceptsWithoutStrings": 14352, 
   "facets": {
     "CompoundConcept": {
@@ -59,20 +59,20 @@
       "altLabels": {
         "en": 403, 
         "la": 23, 
-        "nb": 3638, 
-        "nn": 4866
+        "nb": 3640, 
+        "nn": 4868
       }, 
       "concepts": 13323, 
       "prefLabels": {
         "en": 2403, 
         "la": 302, 
         "nb": 13323, 
-        "nn": 12787
+        "nn": 12784
       }, 
-      "terms": 37745
+      "terms": 37746
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14763, 
+      "concepts": 14762, 
       "prefLabels": {}, 
       "terms": 0
     }
@@ -82,7 +82,7 @@
     "closeMatch": 1543, 
     "definition": 482, 
     "editorialNote": 201, 
-    "exactMatch": 6652, 
+    "exactMatch": 6651, 
     "narrowMatch": 0, 
     "related": 1094, 
     "relatedMatch": 3195
@@ -96,8 +96,8 @@
     "_sum": 54763, 
     "en": 2858, 
     "la": 326, 
-    "nb": 33911, 
-    "nn": 17668
+    "nb": 33912, 
+    "nn": 17667
   }, 
-  "ts": 1487726158
+  "ts": 1487898975
 }
