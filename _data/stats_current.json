@@ -59,17 +59,17 @@
       "altLabels": {
         "en": 404, 
         "la": 23, 
-        "nb": 3649, 
-        "nn": 4877
+        "nb": 3679, 
+        "nn": 4901
       }, 
       "concepts": 13323, 
       "prefLabels": {
         "en": 2405, 
         "la": 303, 
         "nb": 13323, 
-        "nn": 12774
+        "nn": 12767
       }, 
-      "terms": 37758
+      "terms": 37805
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14762, 
@@ -81,10 +81,10 @@
     "broadMatch": 1455, 
     "closeMatch": 1543, 
     "definition": 484, 
-    "editorialNote": 201, 
+    "editorialNote": 202, 
     "exactMatch": 6651, 
     "narrowMatch": 0, 
-    "related": 1099, 
+    "related": 1101, 
     "relatedMatch": 3195
   }, 
   "mappings": {
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54775, 
+    "_sum": 54822, 
     "en": 2861, 
     "la": 327, 
-    "nb": 33921, 
-    "nn": 17666
+    "nb": 33951, 
+    "nn": 17683
   }, 
-  "ts": 1488071792
+  "ts": 1488417414
 }
