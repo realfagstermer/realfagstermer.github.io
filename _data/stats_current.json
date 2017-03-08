@@ -1,9 +1,9 @@
 {
-  "concepts": 30078, 
-  "conceptsWithoutStrings": 14354, 
+  "concepts": 30066, 
+  "conceptsWithoutStrings": 14353, 
   "facets": {
     "CompoundConcept": {
-      "concepts": 980, 
+      "concepts": 979, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -25,19 +25,19 @@
     }, 
     "Place": {
       "altLabels": {
-        "en": 9, 
+        "en": 10, 
         "la": 0, 
-        "nb": 57, 
-        "nn": 2
+        "nb": 62, 
+        "nn": 3
       }, 
       "concepts": 881, 
       "prefLabels": {
-        "en": 25, 
+        "en": 26, 
         "la": 1, 
         "nb": 881, 
-        "nn": 7
+        "nn": 8
       }, 
-      "terms": 982
+      "terms": 991
     }, 
     "Time": {
       "altLabels": {
@@ -57,22 +57,22 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 414, 
+        "en": 416, 
         "la": 23, 
-        "nb": 3706, 
-        "nn": 4920
+        "nb": 3729, 
+        "nn": 4942
       }, 
-      "concepts": 13325, 
+      "concepts": 13324, 
       "prefLabels": {
-        "en": 2409, 
+        "en": 2411, 
         "la": 304, 
-        "nb": 13325, 
-        "nn": 12739
+        "nb": 13324, 
+        "nn": 12714
       }, 
-      "terms": 37840
+      "terms": 37863
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14744, 
+      "concepts": 14734, 
       "prefLabels": {}, 
       "terms": 0
     }
@@ -80,11 +80,11 @@
   "features": {
     "broadMatch": 1455, 
     "closeMatch": 1543, 
-    "definition": 485, 
+    "definition": 488, 
     "editorialNote": 204, 
     "exactMatch": 6651, 
     "narrowMatch": 0, 
-    "related": 1106, 
+    "related": 1110, 
     "relatedMatch": 3195
   }, 
   "mappings": {
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 54840, 
-    "en": 2875, 
+    "_sum": 54861, 
+    "en": 2881, 
     "la": 328, 
-    "nb": 33963, 
-    "nn": 17674
+    "nb": 33979, 
+    "nn": 17673
   }, 
-  "ts": 1488849262
+  "ts": 1488935660
 }
