@@ -5,7 +5,7 @@ title: Retningslinjer
 
 # Retningslinjer for indeksering
 
-*Sist oppdatert 10. juni 2016*
+*Sist oppdatert 3. april 2017*
 
 ## Innledning
 
@@ -334,7 +334,37 @@ i tillegg til emneterm for kildespråk. Term for målspråk registreres som unde
 Til noen av termene finnes det interne noter som gir
 anvisning for bruk av termen.
 
+## Nynorsk: Kunnskapsoverføring fra nynorskprosjektet
 
+(fra epost fra Verbjørn 29. oktober 2016)
+
+Nokre forsøksvis korte punkt om utfordringar/val undervegs:
+
+– Nettopp fordi det er snakk om til dels ganske fagspesifikke termar, er det ein heil del av dei som ikkje er å finna i andre ordbøker. Det inneber at me har måtta leita i andre kjelder for å finna eller få stadfest kva som er etablerte nynorsktermar for ulike omgrep. I den samanhengen har særleg det nynorske tekstkorpuset (http://no2014.uio.no/korpuset/), Wikipedia og ikkje minst ymse nynorskutgåver av gamle lærebøker på Nasjonalbiblioteket sine nettsider kome til nytte. I nokre få tilfelle har me òg snubla over omgrep som tilsynelatande ikkje har hatt nokon etablert nynorskterm før no, slik at me har måtta omsetja etter beste evne.
+
+– På nynorsk er der, som på bokmål (!), ein del valfridom i rettskrivinga. Men der folk flest™ ikkje kjenner so godt til at mange ord kan skrivast/bøyast på ulike måtar på bokmål, er det full fest på nynorsk, noko som gjer det lite tenleg å utelukka den eine eller andre stave-/bøyingsforma. Me har difor freista ha med (innanfor rimelege grenser) alle normerte former av same termen (med ei av dei som «primærform» og resten som alternative former), slik at folk skal få opp rett søkjetreff sjølv om dei søkjer med t.d. hankjønnsbøying av ein term som òg kan vera hokjønn. Dette er ikkje minst viktig fordi det ikkje lenger finst noko formelt skilje mellom hovud- og klammeformer i rettskrivinga, slik det gjorde før.
+
+So skulle eg sjølvsagt gjerne ha vore meir konkret, både når det gjeld døme på kva former me har måtta leita oss fram til, kva me har måtta koma opp med sjølve, og kva for nokre former som har fått stå øvst (i feit skrift, som primærform) – men eg får av ein eller annan grunn berre feilmelding når eg prøver å logga meg inn i på trans.biblionaut.net, so eg har ikkje høve til å søkja opp gode døme … Det eg veit, er at Maria har nytta nynorskkorpuset som referanse for kva former som er mest i bruk, og at desse so (i alle fall i eit visst omfang) har fått forrang.
+
+Men for å prøva å gje ei enkel oppskrift på korleis de kan få nye termar til å samsvara språkleg med dei som ligg inne frå før: Bruk søkjefunksjonen og leit opp liknande termar. Då kan de sjå kva slags former som har fått vera den øvste/primære forma i andre termar som inneheld det same ordet/elementet.
+
+Til dømes vil de ved å søkja opp alle termar som inneheld «bylgje», sjå om det er bylgje, bølgje eller bølge som har fått vera den øvste/primære forma. På same vis vil de kunna finna ut av kva for eit grammatisk kjønn som er «føretrekt» for tvikjønna ord (søk opp alle ord som sluttar på -planter/-plantar for å sjå om det er han- eller hokjønnsbøyinga som har fått forrang i andre termar som sluttar på -planter/-plantar).
+
+Normalt ville eg ha laga ei sokalla språkliste, altso eit oversyn over kva former som er valde. Det trur eg ikkje eg gjorde i dette tilfellet (i so fall er eg ikkje kar om å finna att lista …), dels for å spara arbeidstid, og dels fordi det nok har vore enklare reint praktisk å berre søkja opp tilsvarande ord etter kvart som eg kom over noko eg var usikker på. Sidan mykje av arbeidet vart gjort i ein relativt avgrensa periode, hadde eg nok òg mykje av det langt framme i korttidsminnet då eg sat og arbeidde med det.
+
+Det me derimot har, er nokre små notat Maria kladda ned undervegs i arbeidet, som kan vera nyttig for dykk når de vert usikre på kva kjønn ulike ord skal ha:
+
+(n1=inkjekjønn, m1=hankjønn)
+
+* n1: -id -on -at -eder -som (-osom)
+* m1: -ase -ant
+* Variable: -in -an
+ 
+* I biologien: -ida/-idae (t.d. priapulida) vert bøygd som m1
+* I fysikken: -on (t.d. foton, tachyon, boson, osb.) vert bøygd som n1
+ 
+
+## Referanser
 **Fotnoter:**
 
 [^1]: Hjortsæter, E. Emneordskatalogisering: innholdsanalyse, emnerepresentasjon og lagring. 2005, Oslo: Høgskolen i Oslo, Avdeling journalistikk, bibliotek- og informasjonsfag, s. 73-74.
