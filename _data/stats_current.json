@@ -1,6 +1,6 @@
 {
-  "concepts": 30060, 
-  "conceptsWithoutStrings": 14369, 
+  "concepts": 30061, 
+  "conceptsWithoutStrings": 14370, 
   "facets": {
     "CompoundConcept": {
       "concepts": 983, 
@@ -30,14 +30,14 @@
         "nb": 58, 
         "nn": 3
       }, 
-      "concepts": 881, 
+      "concepts": 882, 
       "prefLabels": {
-        "en": 26, 
+        "en": 27, 
         "la": 1, 
-        "nb": 881, 
-        "nn": 8
+        "nb": 882, 
+        "nn": 9
       }, 
-      "terms": 987
+      "terms": 990
     }, 
     "Time": {
       "altLabels": {
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 55067, 
-    "en": 2976, 
+    "_sum": 55070, 
+    "en": 2977, 
     "la": 330, 
-    "nb": 34087, 
-    "nn": 17674
+    "nb": 34088, 
+    "nn": 17675
   }, 
-  "ts": 1491610343
+  "ts": 1491943624
 }
