@@ -36328,5 +36328,108 @@
       "nn": 17676
     }, 
     "ts": 1493078853
+  }, 
+  {
+    "concepts": 30062, 
+    "conceptsWithoutStrings": 14370, 
+    "facets": {
+      "CompoundConcept": {
+        "concepts": 985, 
+        "prefLabels": {}, 
+        "terms": 0
+      }, 
+      "GenreForm": {
+        "altLabels": {
+          "en": 3, 
+          "la": 0, 
+          "nb": 101, 
+          "nn": 0
+        }, 
+        "concepts": 125, 
+        "prefLabels": {
+          "en": 15, 
+          "la": 0, 
+          "nb": 125, 
+          "nn": 4
+        }, 
+        "terms": 248
+      }, 
+      "Place": {
+        "altLabels": {
+          "en": 10, 
+          "la": 0, 
+          "nb": 58, 
+          "nn": 3
+        }, 
+        "concepts": 882, 
+        "prefLabels": {
+          "en": 27, 
+          "la": 1, 
+          "nb": 882, 
+          "nn": 9
+        }, 
+        "terms": 990
+      }, 
+      "Time": {
+        "altLabels": {
+          "en": 0, 
+          "la": 0, 
+          "nb": 21, 
+          "nn": 1
+        }, 
+        "concepts": 23, 
+        "prefLabels": {
+          "en": 0, 
+          "la": 0, 
+          "nb": 23, 
+          "nn": 1
+        }, 
+        "terms": 46
+      }, 
+      "Topic": {
+        "altLabels": {
+          "en": 474, 
+          "la": 23, 
+          "nb": 3854, 
+          "nn": 5030
+        }, 
+        "concepts": 13340, 
+        "prefLabels": {
+          "en": 2458, 
+          "la": 307, 
+          "nb": 13339, 
+          "nn": 12607
+        }, 
+        "terms": 38092
+      }, 
+      "VirtualCompoundConcept": {
+        "concepts": 14707, 
+        "prefLabels": {}, 
+        "terms": 0
+      }
+    }, 
+    "features": {
+      "broadMatch": 1024, 
+      "closeMatch": 1348, 
+      "definition": 407, 
+      "editorialNote": 178, 
+      "exactMatch": 6321, 
+      "narrowMatch": 0, 
+      "related": 954, 
+      "relatedMatch": 2411
+    }, 
+    "mappings": {
+      "agrovoc": 1, 
+      "ddc": 8863, 
+      "tekord": 810
+    }, 
+    "terms": {
+      "_sum": 55101, 
+      "en": 2988, 
+      "la": 331, 
+      "nb": 34103, 
+      "nn": 17679
+    }, 
+    "ts": 1493165404
   }
 ]
