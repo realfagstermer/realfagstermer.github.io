@@ -59,15 +59,15 @@
       "altLabels": {
         "en": 478, 
         "la": 23, 
-        "nb": 3884, 
-        "nn": 5057
+        "nb": 3887, 
+        "nn": 5059
       }, 
       "concepts": 13345, 
       "prefLabels": {
-        "en": 2463, 
+        "en": 2462, 
         "la": 315, 
         "nb": 13344, 
-        "nn": 12576
+        "nn": 12572
       }, 
       "terms": 38140
     }, 
@@ -84,7 +84,7 @@
     "editorialNote": 178, 
     "exactMatch": 3541, 
     "narrowMatch": 0, 
-    "related": 956, 
+    "related": 954, 
     "relatedMatch": 2869
   }, 
   "mappings": {
@@ -94,10 +94,10 @@
   }, 
   "terms": {
     "_sum": 55149, 
-    "en": 2997, 
+    "en": 2996, 
     "la": 339, 
-    "nb": 34138, 
-    "nn": 17675
+    "nb": 34141, 
+    "nn": 17673
   }, 
-  "ts": 1495239036
+  "ts": 1495498225
 }
