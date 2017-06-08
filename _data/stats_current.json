@@ -1,9 +1,9 @@
 {
-  "concepts": 30061, 
+  "concepts": 30062, 
   "conceptsWithoutStrings": 14378, 
   "facets": {
     "CompoundConcept": {
-      "concepts": 986, 
+      "concepts": 987, 
       "prefLabels": {}, 
       "terms": 0
     }, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 55179, 
+    "_sum": 55180, 
     "en": 3016, 
     "la": 349, 
-    "nb": 34169, 
+    "nb": 34170, 
     "nn": 17645
   }, 
-  "ts": 1496794244
+  "ts": 1496880649
 }
