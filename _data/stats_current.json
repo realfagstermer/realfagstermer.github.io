@@ -27,7 +27,7 @@
       "altLabels": {
         "en": 10, 
         "la": 0, 
-        "nb": 58, 
+        "nb": 61, 
         "nn": 3
       }, 
       "concepts": 882, 
@@ -37,7 +37,7 @@
         "nb": 882, 
         "nn": 9
       }, 
-      "terms": 990
+      "terms": 993
     }, 
     "Time": {
       "altLabels": {
@@ -59,17 +59,17 @@
       "altLabels": {
         "en": 497, 
         "la": 24, 
-        "nb": 3932, 
-        "nn": 5097
+        "nb": 3940, 
+        "nn": 5101
       }, 
       "concepts": 13348, 
       "prefLabels": {
         "en": 2471, 
         "la": 325, 
         "nb": 13347, 
-        "nn": 12508
+        "nn": 12501
       }, 
-      "terms": 38201
+      "terms": 38206
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14692, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 55196, 
+    "_sum": 55204, 
     "en": 3024, 
     "la": 350, 
-    "nb": 34176, 
-    "nn": 17646
+    "nb": 34187, 
+    "nn": 17643
   }, 
-  "ts": 1498867718
+  "ts": 1499127057
 }
