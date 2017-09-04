@@ -57,19 +57,19 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 1182, 
+        "en": 1183, 
         "la": 24, 
         "nb": 4110, 
         "nn": 5203
       }, 
       "concepts": 13357, 
       "prefLabels": {
-        "en": 4503, 
+        "en": 4505, 
         "la": 336, 
         "nb": 13355, 
         "nn": 12364
       }, 
-      "terms": 41077
+      "terms": 41080
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14662, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 58543, 
-    "en": 6240, 
+    "_sum": 58546, 
+    "en": 6243, 
     "la": 361, 
     "nb": 34334, 
     "nn": 17608
   }, 
-  "ts": 1504397475
+  "ts": 1504483822
 }
