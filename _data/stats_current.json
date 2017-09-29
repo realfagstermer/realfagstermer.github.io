@@ -67,9 +67,9 @@
         "en": 4944, 
         "la": 337, 
         "nb": 13357, 
-        "nn": 12290
+        "nn": 12289
       }, 
-      "terms": 41703
+      "terms": 41702
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14659, 
@@ -79,7 +79,7 @@
   }, 
   "features": {
     "broadMatch": 1538, 
-    "closeMatch": 8307, 
+    "closeMatch": 8340, 
     "definition": 428, 
     "editorialNote": 190, 
     "exactMatch": 3540, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 59207, 
+    "_sum": 59206, 
     "en": 6873, 
     "la": 362, 
     "nb": 34397, 
-    "nn": 17575
+    "nn": 17574
   }, 
-  "ts": 1506471031
+  "ts": 1506643862
 }
