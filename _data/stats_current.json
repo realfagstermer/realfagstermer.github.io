@@ -27,7 +27,7 @@
       "altLabels": {
         "en": 79, 
         "la": 0, 
-        "nb": 71, 
+        "nb": 74, 
         "nn": 3
       }, 
       "concepts": 881, 
@@ -37,7 +37,7 @@
         "nb": 881, 
         "nn": 9
       }, 
-      "terms": 1498
+      "terms": 1501
     }, 
     "Time": {
       "altLabels": {
@@ -80,7 +80,7 @@
   "features": {
     "broadMatch": 1538, 
     "closeMatch": 9356, 
-    "definition": 433, 
+    "definition": 434, 
     "editorialNote": 194, 
     "exactMatch": 3540, 
     "narrowMatch": 0, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 90624, 
+    "_sum": 90627, 
     "en": 22578, 
     "la": 369, 
-    "nb": 34487, 
+    "nb": 34490, 
     "nn": 33190
   }, 
-  "ts": 1508976538
+  "ts": 1509012685
 }
