@@ -1,6 +1,6 @@
 {
-  "concepts": 30021, 
-  "conceptsWithoutStrings": 14394, 
+  "concepts": 30004, 
+  "conceptsWithoutStrings": 14395, 
   "facets": {
     "CompoundConcept": {
       "concepts": 978, 
@@ -25,64 +25,64 @@
     }, 
     "Place": {
       "altLabels": {
-        "en": 79, 
+        "en": 126, 
         "la": 0, 
-        "nb": 74, 
-        "nn": 3
+        "nb": 80, 
+        "nn": 4
       }, 
-      "concepts": 881, 
+      "concepts": 882, 
       "prefLabels": {
-        "en": 454, 
+        "en": 755, 
         "la": 1, 
-        "nb": 881, 
-        "nn": 9
+        "nb": 882, 
+        "nn": 11
       }, 
-      "terms": 1501
+      "terms": 1859
     }, 
     "Time": {
       "altLabels": {
-        "en": 6, 
+        "en": 7, 
         "la": 0, 
         "nb": 21, 
         "nn": 1
       }, 
       "concepts": 23, 
       "prefLabels": {
-        "en": 15, 
+        "en": 18, 
         "la": 0, 
         "nb": 23, 
         "nn": 1
       }, 
-      "terms": 67
+      "terms": 71
     }, 
     "Topic": {
       "altLabels": {
-        "en": 1372, 
+        "en": 1521, 
         "la": 24, 
         "nb": 4279, 
         "nn": 5305
       }, 
       "concepts": 13365, 
       "prefLabels": {
-        "en": 4991, 
+        "en": 5534, 
         "la": 344, 
         "nb": 13362, 
-        "nn": 12221
+        "nn": 12219
       }, 
-      "terms": 41898
+      "terms": 42588
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14649, 
+      "concepts": 14631, 
       "prefLabels": {}, 
       "terms": 0
     }
   }, 
   "features": {
     "broadMatch": 1538, 
-    "closeMatch": 9356, 
-    "definition": 437, 
+    "closeMatch": 9367, 
+    "definition": 438, 
     "editorialNote": 194, 
-    "exactMatch": 3540, 
+    "exactMatch": 3539, 
     "narrowMatch": 0, 
     "related": 979, 
     "relatedMatch": 2869
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 90653, 
-    "en": 22587, 
+    "_sum": 91660, 
+    "en": 23622, 
     "la": 369, 
-    "nb": 34504, 
-    "nn": 33193
+    "nb": 34493, 
+    "nn": 33176
   }, 
-  "ts": 1509123296
+  "ts": 1509149504
 }
