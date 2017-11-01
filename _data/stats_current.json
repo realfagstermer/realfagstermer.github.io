@@ -1,5 +1,5 @@
 {
-  "concepts": 29998, 
+  "concepts": 29997, 
   "conceptsWithoutStrings": 14397, 
   "facets": {
     "CompoundConcept": {
@@ -27,7 +27,7 @@
       "altLabels": {
         "en": 135, 
         "la": 0, 
-        "nb": 80, 
+        "nb": 81, 
         "nn": 4
       }, 
       "concepts": 882, 
@@ -37,7 +37,7 @@
         "nb": 882, 
         "nn": 11
       }, 
-      "terms": 1948
+      "terms": 1949
     }, 
     "Time": {
       "altLabels": {
@@ -57,34 +57,34 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 1566, 
+        "en": 1567, 
         "la": 24, 
-        "nb": 4288, 
-        "nn": 5310
+        "nb": 4309, 
+        "nn": 5326
       }, 
       "concepts": 13367, 
       "prefLabels": {
-        "en": 5632, 
-        "la": 344, 
+        "en": 5633, 
+        "la": 345, 
         "nb": 13364, 
-        "nn": 12215
+        "nn": 12197
       }, 
-      "terms": 42743
+      "terms": 42765
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14623, 
+      "concepts": 14622, 
       "prefLabels": {}, 
       "terms": 0
     }
   }, 
   "features": {
     "broadMatch": 1538, 
-    "closeMatch": 9433, 
-    "definition": 439, 
+    "closeMatch": 9447, 
+    "definition": 440, 
     "editorialNote": 194, 
-    "exactMatch": 3539, 
+    "exactMatch": 3592, 
     "narrowMatch": 0, 
-    "related": 979, 
+    "related": 981, 
     "relatedMatch": 2869
   }, 
   "mappings": {
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 91884, 
+    "_sum": 91903, 
     "en": 23851, 
-    "la": 369, 
-    "nb": 34496, 
-    "nn": 33168
+    "la": 370, 
+    "nb": 34517, 
+    "nn": 33165
   }, 
-  "ts": 1509412236
+  "ts": 1509498639
 }
