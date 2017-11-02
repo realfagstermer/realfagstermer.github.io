@@ -16,60 +16,60 @@
       }, 
       "concepts": 125, 
       "prefLabels": {
-        "en": 17, 
+        "en": 18, 
         "la": 0, 
         "nb": 125, 
         "nn": 4
       }, 
-      "terms": 251
+      "terms": 252
     }, 
     "Place": {
       "altLabels": {
-        "en": 135, 
+        "en": 139, 
         "la": 0, 
         "nb": 81, 
         "nn": 4
       }, 
       "concepts": 882, 
       "prefLabels": {
-        "en": 835, 
+        "en": 839, 
         "la": 1, 
         "nb": 882, 
         "nn": 11
       }, 
-      "terms": 1949
+      "terms": 1957
     }, 
     "Time": {
       "altLabels": {
-        "en": 7, 
+        "en": 10, 
         "la": 0, 
         "nb": 21, 
         "nn": 1
       }, 
       "concepts": 23, 
       "prefLabels": {
-        "en": 18, 
+        "en": 19, 
         "la": 0, 
         "nb": 23, 
         "nn": 1
       }, 
-      "terms": 71
+      "terms": 75
     }, 
     "Topic": {
       "altLabels": {
-        "en": 1567, 
+        "en": 1653, 
         "la": 24, 
         "nb": 4309, 
         "nn": 5326
       }, 
       "concepts": 13367, 
       "prefLabels": {
-        "en": 5633, 
+        "en": 5795, 
         "la": 345, 
         "nb": 13364, 
         "nn": 12197
       }, 
-      "terms": 42765
+      "terms": 43013
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14622, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 91903, 
-    "en": 23851, 
+    "_sum": 92169, 
+    "en": 24117, 
     "la": 370, 
     "nb": 34517, 
     "nn": 33165
   }, 
-  "ts": 1509498639
+  "ts": 1509585083
 }
