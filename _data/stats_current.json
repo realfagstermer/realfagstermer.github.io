@@ -1,5 +1,5 @@
 {
-  "concepts": 29997, 
+  "concepts": 29995, 
   "conceptsWithoutStrings": 14397, 
   "facets": {
     "CompoundConcept": {
@@ -16,73 +16,73 @@
       }, 
       "concepts": 125, 
       "prefLabels": {
-        "en": 18, 
+        "en": 17, 
         "la": 0, 
         "nb": 125, 
         "nn": 4
       }, 
-      "terms": 252
+      "terms": 251
     }, 
     "Place": {
       "altLabels": {
-        "en": 139, 
+        "en": 135, 
         "la": 0, 
         "nb": 81, 
         "nn": 4
       }, 
       "concepts": 882, 
       "prefLabels": {
-        "en": 839, 
+        "en": 835, 
         "la": 1, 
         "nb": 882, 
         "nn": 11
       }, 
-      "terms": 1957
+      "terms": 1949
     }, 
     "Time": {
       "altLabels": {
-        "en": 10, 
+        "en": 7, 
         "la": 0, 
         "nb": 21, 
         "nn": 1
       }, 
       "concepts": 23, 
       "prefLabels": {
-        "en": 19, 
+        "en": 18, 
         "la": 0, 
         "nb": 23, 
         "nn": 1
       }, 
-      "terms": 75
+      "terms": 71
     }, 
     "Topic": {
       "altLabels": {
-        "en": 1653, 
+        "en": 1567, 
         "la": 24, 
-        "nb": 4309, 
-        "nn": 5326
+        "nb": 4314, 
+        "nn": 5324
       }, 
       "concepts": 13367, 
       "prefLabels": {
-        "en": 5795, 
+        "en": 5633, 
         "la": 345, 
         "nb": 13364, 
-        "nn": 12197
+        "nn": 12193
       }, 
-      "terms": 43013
+      "terms": 42764
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14622, 
+      "concepts": 14620, 
       "prefLabels": {}, 
       "terms": 0
     }
   }, 
   "features": {
     "broadMatch": 1538, 
-    "closeMatch": 9447, 
+    "closeMatch": 9457, 
     "definition": 440, 
     "editorialNote": 194, 
-    "exactMatch": 3592, 
+    "exactMatch": 3591, 
     "narrowMatch": 0, 
     "related": 981, 
     "relatedMatch": 2869
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 92169, 
-    "en": 24117, 
+    "_sum": 91896, 
+    "en": 23849, 
     "la": 370, 
-    "nb": 34517, 
-    "nn": 33165
+    "nb": 34520, 
+    "nn": 33157
   }, 
-  "ts": 1509585083
+  "ts": 1509671473
 }
