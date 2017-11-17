@@ -78,26 +78,26 @@
     }
   }, 
   "features": {
-    "broadMatch": 0, 
-    "closeMatch": 5282, 
+    "broadMatch": 1537, 
+    "closeMatch": 9517, 
     "definition": 444, 
     "editorialNote": 194, 
-    "exactMatch": 2762, 
+    "exactMatch": 3578, 
     "narrowMatch": 0, 
     "related": 983, 
-    "relatedMatch": 1
+    "relatedMatch": 2868
   }, 
   "mappings": {
-    "agrovoc": 0, 
-    "ddc": 0, 
-    "tekord": 0
+    "agrovoc": 1, 
+    "ddc": 11321, 
+    "tekord": 810
   }, 
   "terms": {
-    "_sum": 91951, 
+    "_sum": 91960, 
     "en": 23905, 
     "la": 371, 
-    "nb": 34528, 
+    "nb": 34537, 
     "nn": 33147
   }, 
-  "ts": 1510794316
+  "ts": 1510881068
 }
