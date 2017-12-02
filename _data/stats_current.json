@@ -1,5 +1,5 @@
 {
-  "concepts": 29981, 
+  "concepts": 29980, 
   "conceptsWithoutStrings": 14402, 
   "facets": {
     "CompoundConcept": {
@@ -57,22 +57,22 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 1701, 
+        "en": 1707, 
         "la": 24, 
-        "nb": 4354, 
-        "nn": 5357
+        "nb": 4356, 
+        "nn": 5359
       }, 
       "concepts": 13371, 
       "prefLabels": {
-        "en": 5837, 
-        "la": 351, 
+        "en": 5862, 
+        "la": 352, 
         "nb": 13369, 
-        "nn": 12163
+        "nn": 12162
       }, 
-      "terms": 43156
+      "terms": 43191
     }, 
     "VirtualCompoundConcept": {
-      "concepts": 14600, 
+      "concepts": 14599, 
       "prefLabels": {}, 
       "terms": 0
     }
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 92285, 
-    "en": 24213, 
-    "la": 376, 
-    "nb": 34555, 
+    "_sum": 92317, 
+    "en": 24243, 
+    "la": 377, 
+    "nb": 34556, 
     "nn": 33141
   }, 
-  "ts": 1512090659
+  "ts": 1512177097
 }
