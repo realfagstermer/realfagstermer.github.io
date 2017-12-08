@@ -27,17 +27,17 @@
       "altLabels": {
         "en": 141, 
         "la": 0, 
-        "nb": 82, 
-        "nn": 4
+        "nb": 84, 
+        "nn": 6
       }, 
       "concepts": 882, 
       "prefLabels": {
-        "en": 842, 
+        "en": 841, 
         "la": 1, 
         "nb": 882, 
-        "nn": 11
+        "nn": 12
       }, 
-      "terms": 1963
+      "terms": 1967
     }, 
     "Time": {
       "altLabels": {
@@ -79,7 +79,7 @@
   }, 
   "features": {
     "broadMatch": 1537, 
-    "closeMatch": 9547, 
+    "closeMatch": 9551, 
     "definition": 446, 
     "editorialNote": 194, 
     "exactMatch": 3576, 
@@ -93,11 +93,11 @@
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 92315, 
-    "en": 24240, 
+    "_sum": 92319, 
+    "en": 24239, 
     "la": 379, 
-    "nb": 34558, 
-    "nn": 33138
+    "nb": 34560, 
+    "nn": 33141
   }, 
-  "ts": 1512609101
+  "ts": 1512695466
 }
