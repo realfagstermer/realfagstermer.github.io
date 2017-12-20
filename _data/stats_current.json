@@ -64,12 +64,12 @@
       }, 
       "concepts": 13371, 
       "prefLabels": {
-        "en": 5859, 
+        "en": 5861, 
         "la": 354, 
         "nb": 13369, 
         "nn": 12150
       }, 
-      "terms": 43184
+      "terms": 43186
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14596, 
@@ -78,26 +78,26 @@
     }
   }, 
   "features": {
-    "broadMatch": 1537, 
-    "closeMatch": 9593, 
+    "broadMatch": 1905, 
+    "closeMatch": 10173, 
     "definition": 446, 
     "editorialNote": 194, 
-    "exactMatch": 3576, 
+    "exactMatch": 3575, 
     "narrowMatch": 0, 
     "related": 983, 
-    "relatedMatch": 2868
+    "relatedMatch": 3205
   }, 
   "mappings": {
     "agrovoc": 1, 
-    "ddc": 11321, 
+    "ddc": 13072, 
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 92307, 
-    "en": 24235, 
+    "_sum": 92309, 
+    "en": 24237, 
     "la": 379, 
     "nb": 34561, 
     "nn": 33132
   }, 
-  "ts": 1513645682
+  "ts": 1513732270
 }
