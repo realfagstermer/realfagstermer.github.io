@@ -79,7 +79,7 @@
   }, 
   "features": {
     "broadMatch": 1906, 
-    "closeMatch": 10173, 
+    "closeMatch": 10176, 
     "definition": 446, 
     "editorialNote": 194, 
     "exactMatch": 3575, 
@@ -99,5 +99,5 @@
     "nb": 34561, 
     "nn": 33132
   }, 
-  "ts": 1513905068
+  "ts": 1513991287
 }
