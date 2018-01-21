@@ -57,7 +57,7 @@
     }, 
     "Topic": {
       "altLabels": {
-        "en": 1717, 
+        "en": 1720, 
         "la": 24, 
         "nb": 4403, 
         "nn": 5380
@@ -69,7 +69,7 @@
         "nb": 13372, 
         "nn": 12071
       }, 
-      "terms": 43228
+      "terms": 43231
     }, 
     "VirtualCompoundConcept": {
       "concepts": 14574, 
@@ -78,8 +78,8 @@
     }
   }, 
   "features": {
-    "broadMatch": 2338, 
-    "closeMatch": 10649, 
+    "broadMatch": 2340, 
+    "closeMatch": 10813, 
     "definition": 457, 
     "editorialNote": 196, 
     "exactMatch": 3573, 
@@ -89,15 +89,15 @@
   }, 
   "mappings": {
     "agrovoc": 1, 
-    "ddc": 14710, 
+    "ddc": 14715, 
     "tekord": 810
   }, 
   "terms": {
-    "_sum": 92343, 
-    "en": 24286, 
+    "_sum": 92346, 
+    "en": 24289, 
     "la": 379, 
     "nb": 34610, 
     "nn": 33068
   }, 
-  "ts": 1516410892
+  "ts": 1516497317
 }
