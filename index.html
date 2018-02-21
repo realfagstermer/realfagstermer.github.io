@@ -65,10 +65,16 @@ title: Realfagstermer
             <span class="number">{{ site.data.stats_current.mappings.tekord }}</span> til Tekord
         </li>
         <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.mappings.humord }}</span> til Humord
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
             <span class="number">{{ site.data.stats_current.mappings.ddc }}</span> til Dewey (DDC23)
         </li>
         <li><i class="fa fa-li fa-angle-double-right"></i>
             <span class="number">{{ site.data.stats_current.mappings.agrovoc }}</span> til Agrovoc
+        </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.mappings.wikidata }}</span> til Wikidata
         </li>
     </ul>
 
@@ -86,12 +92,16 @@ title: Realfagstermer
             <span class="number">{{ site.data.stats_current.features.related }}</span> ‘se også’-henvisninger
             <tt>(skos:related)</tt>
         </li>
+        <li><i class="fa fa-li fa-angle-double-right"></i>
+            <span class="number">{{ site.data.stats_current.deprecatedConcepts }}</span> begreper tatt ut av bruk (slettet)
+            <tt>(owl:deprecated)</tt>
+        </li>
     </ul>
 
     <h2>
         <a name="example">Eksempelbegrep</a>
     </h2>
-    
+
     <p>
         Begrepet <a href="http://data.ub.uio.nu/realfagstermer/c006839">&lt;http://data.ub.uio.no/realfagstermer/c006839&gt;</a>
         er et eksempel på et godt utbygd begrep i Realfagstermer.
