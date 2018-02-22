@@ -1,10 +1,10 @@
 {
-  "concepts": 28506,
-  "conceptsWithoutStrings": 13066,
-  "deprecatedConcepts": 1350,
+  "concepts": 28453,
+  "conceptsWithoutStrings": 13026,
+  "deprecatedConcepts": 1393,
   "facets": {
     "CompoundConcept": {
-      "concepts": 998,
+      "concepts": 990,
       "prefLabels": {},
       "terms": 0
     },
@@ -15,14 +15,14 @@
         "nb": 103,
         "nn": 0
       },
-      "concepts": 118,
+      "concepts": 117,
       "prefLabels": {
         "en": 32,
         "la": 0,
-        "nb": 118,
+        "nb": 117,
         "nn": 5
       },
-      "terms": 276
+      "terms": 275
     },
     "Place": {
       "altLabels": {
@@ -58,49 +58,49 @@
     },
     "Topic": {
       "altLabels": {
-        "en": 1787,
+        "en": 1793,
         "la": 24,
-        "nb": 4457,
-        "nn": 5402
+        "nb": 4469,
+        "nn": 5406
       },
-      "concepts": 12068,
+      "concepts": 12029,
       "prefLabels": {
-        "en": 6077,
+        "en": 6074,
         "la": 354,
-        "nb": 12066,
-        "nn": 12020
+        "nb": 12027,
+        "nn": 11981
       },
-      "terms": 42187
+      "terms": 42128
     },
     "VirtualCompoundConcept": {
-      "concepts": 14442,
+      "concepts": 14437,
       "prefLabels": {},
       "terms": 0
     }
   },
   "features": {
-    "broadMatch": 2974,
-    "closeMatch": 15540,
-    "definition": 464,
+    "broadMatch": 2991,
+    "closeMatch": 15580,
+    "definition": 465,
     "editorialNote": 181,
-    "exactMatch": 3460,
+    "exactMatch": 3458,
     "narrowMatch": 0,
-    "related": 1008,
-    "relatedMatch": 3949
+    "related": 1006,
+    "relatedMatch": 3972
   },
   "mappings": {
     "agrovoc": 2,
-    "ddc": 18663,
+    "ddc": 18834,
     "humord": 6012,
     "tekord": 1620,
-    "wikidata": 6330
+    "wikidata": 6338
   },
   "terms": {
-    "_sum": 92260,
-    "en": 24409,
+    "_sum": 92203,
+    "en": 24399,
     "la": 379,
-    "nb": 34552,
-    "nn": 32920
+    "nb": 34553,
+    "nn": 32872
   },
-  "ts": 1519246557
+  "ts": 1519333149
 }
