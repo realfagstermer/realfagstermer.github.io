@@ -58,19 +58,19 @@
     },
     "Topic": {
       "altLabels": {
-        "en": 1851,
+        "en": 1853,
         "la": 24,
         "nb": 4522,
         "nn": 5438
       },
       "concepts": 11926,
       "prefLabels": {
-        "en": 6122,
+        "en": 6129,
         "la": 354,
         "nb": 11924,
         "nn": 11879
       },
-      "terms": 42114
+      "terms": 42123
     },
     "VirtualCompoundConcept": {
       "concepts": 14428,
@@ -96,11 +96,11 @@
     "wikidata": 6483
   },
   "terms": {
-    "_sum": 92246,
-    "en": 24487,
+    "_sum": 92255,
+    "en": 24496,
     "la": 379,
     "nb": 34597,
     "nn": 32783
   },
-  "ts": 1520629165
+  "ts": 1520657061
 }
