@@ -1,10 +1,10 @@
 {
-  "concepts": 28296,
-  "conceptsWithoutStrings": 12902,
-  "deprecatedConcepts": 1524,
+  "concepts": 28280,
+  "conceptsWithoutStrings": 12890,
+  "deprecatedConcepts": 1536,
   "facets": {
     "CompoundConcept": {
-      "concepts": 972,
+      "concepts": 971,
       "prefLabels": {},
       "terms": 0
     },
@@ -31,14 +31,14 @@
         "nb": 98,
         "nn": 7
       },
-      "concepts": 857,
+      "concepts": 856,
       "prefLabels": {
-        "en": 842,
+        "en": 841,
         "la": 1,
-        "nb": 857,
+        "nb": 856,
         "nn": 26
       },
-      "terms": 1974
+      "terms": 1972
     },
     "Time": {
       "altLabels": {
@@ -58,49 +58,49 @@
     },
     "Topic": {
       "altLabels": {
-        "en": 1890,
+        "en": 1889,
         "la": 24,
-        "nb": 4537,
-        "nn": 5447
+        "nb": 4550,
+        "nn": 5452
       },
-      "concepts": 11905,
+      "concepts": 11894,
       "prefLabels": {
-        "en": 6226,
+        "en": 6223,
         "la": 354,
-        "nb": 11903,
-        "nn": 11858
+        "nb": 11892,
+        "nn": 11847
       },
-      "terms": 42239
+      "terms": 42231
     },
     "VirtualCompoundConcept": {
-      "concepts": 14422,
+      "concepts": 14419,
       "prefLabels": {},
       "terms": 0
     }
   },
   "features": {
-    "broadMatch": 3065,
-    "closeMatch": 15839,
+    "broadMatch": 3063,
+    "closeMatch": 15849,
     "definition": 471,
-    "editorialNote": 181,
-    "exactMatch": 3452,
+    "editorialNote": 182,
+    "exactMatch": 3451,
     "narrowMatch": 0,
-    "related": 1011,
-    "relatedMatch": 4062
+    "related": 1012,
+    "relatedMatch": 4059
   },
   "mappings": {
     "agrovoc": 1,
-    "ddc": 19465,
+    "ddc": 19475,
     "humord": 3229,
     "tekord": 810,
-    "wikidata": 6514
+    "wikidata": 6525
   },
   "terms": {
-    "_sum": 92352,
-    "en": 24619,
+    "_sum": 92342,
+    "en": 24610,
     "la": 379,
-    "nb": 34598,
-    "nn": 32756
+    "nb": 34607,
+    "nn": 32746
   },
-  "ts": 1521175477
+  "ts": 1521233973
 }
