@@ -1,7 +1,7 @@
 {
-  "concepts": 28181,
-  "conceptsWithoutStrings": 12821,
-  "deprecatedConcepts": 1607,
+  "concepts": 28156,
+  "conceptsWithoutStrings": 12798,
+  "deprecatedConcepts": 1630,
   "facets": {
     "CompoundConcept": {
       "concepts": 965,
@@ -12,33 +12,33 @@
       "altLabels": {
         "en": 18,
         "la": 0,
-        "nb": 103,
+        "nb": 105,
         "nn": 0
       },
-      "concepts": 117,
+      "concepts": 114,
       "prefLabels": {
         "en": 33,
         "la": 0,
-        "nb": 117,
+        "nb": 114,
         "nn": 5
       },
-      "terms": 276
+      "terms": 275
     },
     "Place": {
       "altLabels": {
         "en": 143,
         "la": 0,
-        "nb": 99,
-        "nn": 8
+        "nb": 100,
+        "nn": 9
       },
       "concepts": 857,
       "prefLabels": {
         "en": 843,
         "la": 1,
         "nb": 857,
-        "nn": 28
+        "nn": 29
       },
-      "terms": 1979
+      "terms": 1982
     },
     "Time": {
       "altLabels": {
@@ -58,49 +58,49 @@
     },
     "Topic": {
       "altLabels": {
-        "en": 1996,
+        "en": 1997,
         "la": 24,
-        "nb": 4573,
-        "nn": 5462
+        "nb": 4585,
+        "nn": 5476
       },
-      "concepts": 11824,
+      "concepts": 11804,
       "prefLabels": {
-        "en": 6424,
+        "en": 6423,
         "la": 354,
-        "nb": 11822,
-        "nn": 11777
+        "nb": 11802,
+        "nn": 11757
       },
-      "terms": 42432
+      "terms": 42418
     },
     "VirtualCompoundConcept": {
-      "concepts": 14395,
+      "concepts": 14393,
       "prefLabels": {},
       "terms": 0
     }
   },
   "features": {
-    "broadMatch": 3069,
-    "closeMatch": 15910,
+    "broadMatch": 3063,
+    "closeMatch": 15903,
     "definition": 473,
-    "editorialNote": 182,
-    "exactMatch": 3442,
+    "editorialNote": 183,
+    "exactMatch": 3440,
     "narrowMatch": 0,
-    "related": 1018,
+    "related": 1028,
     "relatedMatch": 4060
   },
   "mappings": {
     "agrovoc": 1,
-    "ddc": 19538,
+    "ddc": 19532,
     "humord": 3230,
     "tekord": 810,
-    "wikidata": 6606
+    "wikidata": 6608
   },
   "terms": {
-    "_sum": 92542,
-    "en": 24901,
+    "_sum": 92543,
+    "en": 24895,
     "la": 379,
-    "nb": 34603,
-    "nn": 32659
+    "nb": 34616,
+    "nn": 32653
   },
-  "ts": 1522162356
+  "ts": 1522180747
 }
