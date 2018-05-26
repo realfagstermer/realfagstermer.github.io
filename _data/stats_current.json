@@ -79,14 +79,14 @@
     }
   },
   "features": {
-    "broadMatch": 3069,
+    "broadMatch": 3071,
     "closeMatch": 8848,
     "definition": 481,
     "editorialNote": 184,
-    "exactMatch": 10073,
+    "exactMatch": 10072,
     "narrowMatch": 1,
     "related": 1066,
-    "relatedMatch": 4066
+    "relatedMatch": 4065
   },
   "mappings": {
     "agrovoc": 0,
@@ -102,5 +102,5 @@
     "nb": 34768,
     "nn": 32622
   },
-  "ts": 1527278173
+  "ts": 1527364404
 }
