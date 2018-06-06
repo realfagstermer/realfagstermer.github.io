@@ -89,10 +89,10 @@
     "relatedMatch": 4064
   },
   "mappings": {
-    "agrovoc": 0,
-    "ddc": 14229,
-    "humord": 447,
-    "tekord": 5,
+    "agrovoc": 6,
+    "ddc": 19434,
+    "humord": 3225,
+    "tekord": 3000,
     "wikidata": 7179
   },
   "terms": {
@@ -102,5 +102,5 @@
     "nb": 34769,
     "nn": 32623
   },
-  "ts": 1528282230
+  "ts": 1528283051
 }
