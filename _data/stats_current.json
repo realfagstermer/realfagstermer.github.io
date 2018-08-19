@@ -80,7 +80,7 @@
   },
   "features": {
     "broadMatch": 3084,
-    "closeMatch": 9308,
+    "closeMatch": 9350,
     "definition": 496,
     "editorialNote": 189,
     "exactMatch": 10098,
@@ -93,7 +93,7 @@
     "ddc": 19826,
     "humord": 3223,
     "tekord": 3000,
-    "wikidata": 7704
+    "wikidata": 7755
   },
   "terms": {
     "_sum": 93951,
@@ -102,5 +102,5 @@
     "nb": 34944,
     "nn": 32394
   },
-  "ts": 1534622029
+  "ts": 1534708430
 }
