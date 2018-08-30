@@ -1,7 +1,7 @@
 {
-  "concepts": 12340,
-  "conceptsWithoutStrings": 12340,
-  "deprecatedConcepts": 2124,
+  "concepts": 12294,
+  "conceptsWithoutStrings": 12294,
+  "deprecatedConcepts": 2170,
   "facets": {
     "CompoundConcept": {
       "concepts": 0,
@@ -12,17 +12,17 @@
       "altLabels": {
         "en": 37,
         "la": 0,
-        "nb": 112,
+        "nb": 111,
         "nn": 3
       },
-      "concepts": 111,
+      "concepts": 109,
       "prefLabels": {
         "en": 49,
         "la": 0,
-        "nb": 111,
+        "nb": 109,
         "nn": 6
       },
-      "terms": 318
+      "terms": 315
     },
     "Place": {
       "altLabels": {
@@ -58,19 +58,19 @@
     },
     "Topic": {
       "altLabels": {
-        "en": 2540,
+        "en": 2530,
         "la": 24,
-        "nb": 4975,
-        "nn": 5761
+        "nb": 4966,
+        "nn": 5748
       },
-      "concepts": 11351,
+      "concepts": 11307,
       "prefLabels": {
-        "en": 7279,
+        "en": 7245,
         "la": 356,
-        "nb": 11346,
-        "nn": 11302
+        "nb": 11302,
+        "nn": 11259
       },
-      "terms": 43583
+      "terms": 43430
     },
     "VirtualCompoundConcept": {
       "concepts": 0,
@@ -79,28 +79,28 @@
     }
   },
   "features": {
-    "broadMatch": 3100,
-    "closeMatch": 9438,
-    "definition": 496,
-    "editorialNote": 189,
-    "exactMatch": 10104,
+    "broadMatch": 3098,
+    "closeMatch": 9448,
+    "definition": 495,
+    "editorialNote": 188,
+    "exactMatch": 10089,
     "narrowMatch": 1,
-    "related": 1123,
-    "relatedMatch": 4092
+    "related": 1120,
+    "relatedMatch": 4083
   },
   "mappings": {
     "agrovoc": 6,
-    "ddc": 19890,
-    "humord": 3221,
+    "ddc": 19897,
+    "humord": 3219,
     "tekord": 3000,
-    "wikidata": 7850
+    "wikidata": 7895
   },
   "terms": {
-    "_sum": 93939,
-    "en": 26241,
+    "_sum": 93819,
+    "en": 26193,
     "la": 381,
-    "nb": 34947,
-    "nn": 32370
+    "nb": 34934,
+    "nn": 32311
   },
-  "ts": 1535600529
+  "ts": 1535658976
 }
