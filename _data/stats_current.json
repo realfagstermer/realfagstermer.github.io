@@ -65,12 +65,12 @@
       },
       "concepts": 11203,
       "prefLabels": {
-        "en": 7487,
+        "en": 7488,
         "la": 361,
         "nb": 11198,
         "nn": 11154
       },
-      "terms": 43674
+      "terms": 43675
     },
     "VirtualCompoundConcept": {
       "concepts": 0,
@@ -96,11 +96,11 @@
     "wikidata": 8080
   },
   "terms": {
-    "_sum": 94048,
-    "en": 26507,
+    "_sum": 94049,
+    "en": 26508,
     "la": 387,
     "nb": 34952,
     "nn": 32202
   },
-  "ts": 1537300582
+  "ts": 1537328753
 }
