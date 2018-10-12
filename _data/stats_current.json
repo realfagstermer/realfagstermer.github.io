@@ -10,19 +10,19 @@
     },
     "GenreForm": {
       "altLabels": {
-        "en": 38,
+        "en": 41,
         "la": 0,
         "nb": 111,
         "nn": 3
       },
       "concepts": 109,
       "prefLabels": {
-        "en": 51,
+        "en": 54,
         "la": 0,
         "nb": 109,
         "nn": 6
       },
-      "terms": 318
+      "terms": 324
     },
     "Place": {
       "altLabels": {
@@ -58,19 +58,19 @@
     },
     "Topic": {
       "altLabels": {
-        "en": 2712,
+        "en": 2739,
         "la": 25,
         "nb": 5105,
         "nn": 5851
       },
       "concepts": 11074,
       "prefLabels": {
-        "en": 7541,
+        "en": 7586,
         "la": 362,
         "nb": 11069,
         "nn": 11027
       },
-      "terms": 43692
+      "terms": 43764
     },
     "VirtualCompoundConcept": {
       "concepts": 0,
@@ -96,11 +96,11 @@
     "wikidata": 8495
   },
   "terms": {
-    "_sum": 94102,
-    "en": 26596,
+    "_sum": 94182,
+    "en": 26676,
     "la": 388,
     "nb": 35010,
     "nn": 32108
   },
-  "ts": 1539288045
+  "ts": 1539315897
 }
