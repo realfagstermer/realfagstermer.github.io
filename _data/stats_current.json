@@ -79,7 +79,7 @@
     }
   },
   "features": {
-    "broadMatch": 3791,
+    "broadMatch": 3790,
     "closeMatch": 10498,
     "definition": 529,
     "editorialNote": 210,
@@ -90,7 +90,7 @@
   },
   "mappings": {
     "agrovoc": 6,
-    "ddc": 23572,
+    "ddc": 23588,
     "humord": 3214,
     "tekord": 2996,
     "wikidata": 9088
@@ -102,5 +102,5 @@
     "nb": 35545,
     "nn": 31191
   },
-  "ts": 1557259047
+  "ts": 1557345313
 }
