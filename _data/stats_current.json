@@ -1,7 +1,7 @@
 {
-  "concepts": 10754,
-  "conceptsWithoutStrings": 10754,
-  "deprecatedConcepts": 3768,
+  "concepts": 10753,
+  "conceptsWithoutStrings": 10753,
+  "deprecatedConcepts": 3770,
   "facets": {
     "CompoundConcept": {
       "concepts": 0,
@@ -60,15 +60,15 @@
       "altLabels": {
         "en": 4443,
         "la": 27,
-        "nb": 5928,
-        "nn": 6565
+        "nb": 5929,
+        "nn": 6566
       },
-      "concepts": 9763,
+      "concepts": 9762,
       "prefLabels": {
         "en": 9113,
         "la": 386,
-        "nb": 9760,
-        "nn": 9722
+        "nb": 9759,
+        "nn": 9721
       },
       "terms": 45944
     },
@@ -79,28 +79,28 @@
     }
   },
   "features": {
-    "broadMatch": 3790,
-    "closeMatch": 10498,
+    "broadMatch": 3791,
+    "closeMatch": 10499,
     "definition": 531,
     "editorialNote": 210,
-    "exactMatch": 10553,
+    "exactMatch": 10551,
     "narrowMatch": 1,
-    "related": 1339,
-    "relatedMatch": 4349
+    "related": 1341,
+    "relatedMatch": 4353
   },
   "mappings": {
     "agrovoc": 6,
-    "ddc": 23586,
+    "ddc": 23589,
     "humord": 3212,
     "tekord": 2996,
-    "wikidata": 9088
+    "wikidata": 9089
   },
   "terms": {
-    "_sum": 96857,
-    "en": 29692,
+    "_sum": 96845,
+    "en": 29687,
     "la": 414,
-    "nb": 35554,
-    "nn": 31197
+    "nb": 35552,
+    "nn": 31192
   },
-  "ts": 1557777450
+  "ts": 1557863880
 }
