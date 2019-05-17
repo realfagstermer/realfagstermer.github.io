@@ -86,11 +86,11 @@
     "exactMatch": 10551,
     "narrowMatch": 1,
     "related": 1341,
-    "relatedMatch": 4358
+    "relatedMatch": 4359
   },
   "mappings": {
     "agrovoc": 6,
-    "ddc": 23608,
+    "ddc": 23610,
     "humord": 3212,
     "tekord": 2996,
     "wikidata": 9089
@@ -102,5 +102,5 @@
     "nb": 35552,
     "nn": 31192
   },
-  "ts": 1557950105
+  "ts": 1558064169
 }
