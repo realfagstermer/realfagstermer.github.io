@@ -1,7 +1,7 @@
 {
   "concepts": 10744,
   "conceptsWithoutStrings": 10744,
-  "deprecatedConcepts": 3782,
+  "deprecatedConcepts": 3781,
   "facets": {
     "CompoundConcept": {
       "concepts": 0,
@@ -60,8 +60,8 @@
       "altLabels": {
         "en": 4450,
         "la": 27,
-        "nb": 5938,
-        "nn": 6575
+        "nb": 5939,
+        "nn": 6576
       },
       "concepts": 9756,
       "prefLabels": {
@@ -70,7 +70,7 @@
         "nb": 9752,
         "nn": 9714
       },
-      "terms": 45953
+      "terms": 45955
     },
     "VirtualCompoundConcept": {
       "concepts": 0,
@@ -91,16 +91,16 @@
   "mappings": {
     "agrovoc": 6,
     "ddc": 23640,
-    "humord": 3212,
+    "humord": 3211,
     "tekord": 2996,
     "wikidata": 9095
   },
   "terms": {
-    "_sum": 96845,
+    "_sum": 96846,
     "en": 29683,
     "la": 414,
     "nb": 35560,
-    "nn": 31188
+    "nn": 31189
   },
-  "ts": 1563220506
+  "ts": 1563307041
 }
