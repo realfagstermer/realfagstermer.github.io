@@ -1,7 +1,7 @@
 {
   "concepts": 9878,
   "conceptsWithoutStrings": 9878,
-  "deprecatedConcepts": 3793,
+  "deprecatedConcepts": 3794,
   "facets": {
     "CompoundConcept": {
       "concepts": 0,
@@ -85,7 +85,7 @@
     "editorialNote": 218,
     "exactMatch": 10545,
     "narrowMatch": 1,
-    "related": 1368,
+    "related": 1370,
     "relatedMatch": 4351
   },
   "mappings": {
@@ -96,11 +96,11 @@
     "wikidata": 9151
   },
   "terms": {
-    "_sum": 97011,
-    "en": 29741,
+    "_sum": 97145,
+    "en": 29785,
     "la": 421,
-    "nb": 35626,
-    "nn": 31223
+    "nb": 35672,
+    "nn": 31267
   },
-  "ts": 1572756074
+  "ts": 1572987437
 }
