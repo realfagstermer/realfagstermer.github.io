@@ -1,10 +1,10 @@
 {
-  "concepts": 9887,
-  "conceptsWithoutStrings": 9887,
+  "concepts": 25638,
+  "conceptsWithoutStrings": 10770,
   "deprecatedConcepts": 3796,
   "facets": {
-    "CompoundConcept": {
-      "concepts": 0,
+    "ComplexConcept": {
+      "concepts": 884,
       "prefLabels": {},
       "terms": 0
     },
@@ -24,37 +24,37 @@
       },
       "terms": 404
     },
-    "Place": {
+    "Geographic": {
       "altLabels": {
-        "en": 0,
+        "en": 151,
         "la": 0,
-        "nb": 0,
-        "nn": 0
+        "nb": 104,
+        "nn": 10
       },
-      "concepts": 0,
+      "concepts": 860,
       "prefLabels": {
-        "en": 0,
-        "la": 0,
-        "nb": 0,
-        "nn": 0
+        "en": 851,
+        "la": 1,
+        "nb": 860,
+        "nn": 34
       },
-      "terms": 0
+      "terms": 2011
     },
-    "Time": {
+    "Temporal": {
       "altLabels": {
-        "en": 0,
+        "en": 10,
         "la": 0,
-        "nb": 0,
-        "nn": 0
+        "nb": 21,
+        "nn": 1
       },
-      "concepts": 0,
+      "concepts": 23,
       "prefLabels": {
-        "en": 0,
+        "en": 21,
         "la": 0,
-        "nb": 0,
-        "nn": 0
+        "nb": 23,
+        "nn": 1
       },
-      "terms": 0
+      "terms": 77
     },
     "Topic": {
       "altLabels": {
@@ -72,8 +72,8 @@
       },
       "terms": 46212
     },
-    "VirtualCompoundConcept": {
-      "concepts": 0,
+    "VirtualComplexConcept": {
+      "concepts": 13984,
       "prefLabels": {},
       "terms": 0
     }
@@ -102,5 +102,5 @@
     "nb": 35700,
     "nn": 31289
   },
-  "ts": 1575088961
+  "ts": 1575550430
 }
