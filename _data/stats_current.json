@@ -1,6 +1,6 @@
 {
-  "concepts": 25652,
-  "conceptsWithoutStrings": 10784,
+  "concepts": 25653,
+  "conceptsWithoutStrings": 10785,
   "deprecatedConcepts": 3797,
   "facets": {
     "ComplexConcept": {
@@ -31,14 +31,14 @@
         "nb": 106,
         "nn": 14
       },
-      "concepts": 862,
+      "concepts": 863,
       "prefLabels": {
-        "en": 856,
+        "en": 857,
         "la": 1,
-        "nb": 862,
-        "nn": 37
+        "nb": 863,
+        "nn": 38
       },
-      "terms": 2028
+      "terms": 2031
     },
     "Temporal": {
       "altLabels": {
@@ -96,11 +96,11 @@
     "wikidata": 9182
   },
   "terms": {
-    "_sum": 97357,
-    "en": 29869,
+    "_sum": 97360,
+    "en": 29870,
     "la": 432,
-    "nb": 35734,
-    "nn": 31322
+    "nb": 35735,
+    "nn": 31323
   },
-  "ts": 1584381038
+  "ts": 1584478686
 }
