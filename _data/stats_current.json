@@ -33,12 +33,12 @@
       },
       "concepts": 865,
       "prefLabels": {
-        "en": 857,
+        "en": 860,
         "la": 1,
         "nb": 865,
         "nn": 38
       },
-      "terms": 2033
+      "terms": 2036
     },
     "Temporal": {
       "altLabels": {
@@ -65,12 +65,12 @@
       },
       "concepts": 9790,
       "prefLabels": {
-        "en": 9160,
+        "en": 9161,
         "la": 404,
         "nb": 9787,
         "nn": 9743
       },
-      "terms": 46421
+      "terms": 46422
     },
     "VirtualComplexConcept": {
       "concepts": 13986,
@@ -96,11 +96,11 @@
     "wikidata": 9196
   },
   "terms": {
-    "_sum": 97482,
-    "en": 29902,
+    "_sum": 97486,
+    "en": 29906,
     "la": 433,
     "nb": 35786,
     "nn": 31361
   },
-  "ts": 1594411092
+  "ts": 1594438966
 }
