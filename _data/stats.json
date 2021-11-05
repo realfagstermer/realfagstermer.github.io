@@ -135710,5 +135710,111 @@
       "nn": 31402
     },
     "ts": 1635972713
+  },
+  {
+    "concepts": 25676,
+    "conceptsWithoutStrings": 10810,
+    "deprecatedConcepts": 3810,
+    "facets": {
+      "ComplexConcept": {
+        "concepts": 880,
+        "prefLabels": {},
+        "terms": 0
+      },
+      "GenreForm": {
+        "altLabels": {
+          "en": 74,
+          "la": 0,
+          "nb": 114,
+          "nn": 6
+        },
+        "concepts": 111,
+        "prefLabels": {
+          "en": 89,
+          "la": 0,
+          "nb": 111,
+          "nn": 10
+        },
+        "terms": 404
+      },
+      "Geographic": {
+        "altLabels": {
+          "en": 153,
+          "la": 0,
+          "nb": 107,
+          "nn": 15
+        },
+        "concepts": 866,
+        "prefLabels": {
+          "en": 861,
+          "la": 1,
+          "nb": 866,
+          "nn": 39
+        },
+        "terms": 2042
+      },
+      "Temporal": {
+        "altLabels": {
+          "en": 10,
+          "la": 0,
+          "nb": 21,
+          "nn": 1
+        },
+        "concepts": 23,
+        "prefLabels": {
+          "en": 21,
+          "la": 0,
+          "nb": 23,
+          "nn": 1
+        },
+        "terms": 77
+      },
+      "Topic": {
+        "altLabels": {
+          "en": 4596,
+          "la": 32,
+          "nb": 6080,
+          "nn": 6693
+        },
+        "concepts": 9810,
+        "prefLabels": {
+          "en": 9181,
+          "la": 407,
+          "nb": 9807,
+          "nn": 9763
+        },
+        "terms": 46559
+      },
+      "VirtualComplexConcept": {
+        "concepts": 13986,
+        "prefLabels": {},
+        "terms": 0
+      }
+    },
+    "features": {
+      "broadMatch": 3796,
+      "closeMatch": 10602,
+      "definition": 552,
+      "editorialNote": 238,
+      "exactMatch": 10530,
+      "narrowMatch": 1,
+      "related": 1429,
+      "relatedMatch": 4348
+    },
+    "mappings": {
+      "agrovoc": 6,
+      "ddc": 23652,
+      "humord": 3210,
+      "tekord": 2995,
+      "wikidata": 9204
+    },
+    "terms": {
+      "_sum": 97629,
+      "en": 29948,
+      "la": 440,
+      "nb": 35837,
+      "nn": 31404
+    },
+    "ts": 1636145487
   }
 ]
