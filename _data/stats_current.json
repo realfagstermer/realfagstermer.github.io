@@ -42,35 +42,35 @@
     },
     "Temporal": {
       "altLabels": {
+        "en": 1,
+        "la": 0,
+        "nb": 15,
+        "nn": 0
+      },
+      "concepts": 10,
+      "prefLabels": {
         "en": 10,
         "la": 0,
-        "nb": 21,
-        "nn": 1
+        "nb": 10,
+        "nn": 0
       },
-      "concepts": 23,
-      "prefLabels": {
-        "en": 21,
-        "la": 0,
-        "nb": 23,
-        "nn": 1
-      },
-      "terms": 77
+      "terms": 36
     },
     "Topic": {
       "altLabels": {
-        "en": 4604,
+        "en": 4613,
         "la": 32,
-        "nb": 6110,
-        "nn": 6697
+        "nb": 6116,
+        "nn": 6698
       },
-      "concepts": 9829,
+      "concepts": 9842,
       "prefLabels": {
-        "en": 9201,
+        "en": 9212,
         "la": 410,
-        "nb": 9826,
-        "nn": 9782
+        "nb": 9839,
+        "nn": 9783
       },
-      "terms": 46662
+      "terms": 46703
     },
     "VirtualComplexConcept": {
       "concepts": 13986,
@@ -102,5 +102,5 @@
     "nb": 35888,
     "nn": 31428
   },
-  "ts": 1648669960
+  "ts": 1648756316
 }
