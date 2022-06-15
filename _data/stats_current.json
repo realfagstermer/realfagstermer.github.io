@@ -1,10 +1,10 @@
 {
-  "concepts": 24894,
+  "concepts": 24868,
   "conceptsWithoutStrings": 10839,
   "deprecatedConcepts": 3811,
   "facets": {
     "ComplexConcept": {
-      "concepts": 70,
+      "concepts": 44,
       "prefLabels": {},
       "terms": 0
     },
@@ -79,28 +79,28 @@
     }
   },
   "features": {
-    "broadMatch": 3711,
-    "closeMatch": 10540,
+    "broadMatch": 3705,
+    "closeMatch": 10537,
     "definition": 565,
     "editorialNote": 238,
-    "exactMatch": 10391,
+    "exactMatch": 10385,
     "narrowMatch": 1,
     "related": 1437,
-    "relatedMatch": 4307
+    "relatedMatch": 4306
   },
   "mappings": {
     "agrovoc": 6,
-    "ddc": 23008,
+    "ddc": 22985,
     "humord": 3210,
     "tekord": 2995,
     "wikidata": 9204
   },
   "terms": {
-    "_sum": 95335,
-    "en": 29176,
+    "_sum": 95257,
+    "en": 29150,
     "la": 443,
-    "nb": 35087,
-    "nn": 30629
+    "nb": 35061,
+    "nn": 30603
   },
-  "ts": 1655236384
+  "ts": 1655322744
 }
