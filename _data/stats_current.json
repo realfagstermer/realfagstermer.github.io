@@ -1,6 +1,6 @@
 {
-  "concepts": 10846,
-  "conceptsWithoutStrings": 10846,
+  "concepts": 10847,
+  "conceptsWithoutStrings": 10847,
   "deprecatedConcepts": 3811,
   "facets": {
     "ComplexConcept": {
@@ -63,14 +63,14 @@
         "nb": 6126,
         "nn": 6702
       },
-      "concepts": 9857,
+      "concepts": 9858,
       "prefLabels": {
-        "en": 9225,
+        "en": 9226,
         "la": 410,
-        "nb": 9854,
-        "nn": 9796
+        "nb": 9855,
+        "nn": 9797
       },
-      "terms": 46765
+      "terms": 46768
     },
     "VirtualComplexConcept": {
       "concepts": 0,
@@ -96,11 +96,11 @@
     "wikidata": 9204
   },
   "terms": {
-    "_sum": 53198,
-    "en": 15132,
+    "_sum": 53203,
+    "en": 15134,
     "la": 443,
-    "nb": 21040,
-    "nn": 16583
+    "nb": 21041,
+    "nn": 16585
   },
-  "ts": 1659642575
+  "ts": 1660765795
 }
