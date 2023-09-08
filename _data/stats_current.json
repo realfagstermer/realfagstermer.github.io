@@ -1,7 +1,7 @@
 {
-  "concepts": 10848,
-  "conceptsWithoutStrings": 10848,
-  "deprecatedConcepts": 3812,
+  "concepts": 10876,
+  "conceptsWithoutStrings": 10876,
+  "deprecatedConcepts": 0,
   "facets": {
     "ComplexConcept": {
       "concepts": 0,
@@ -10,35 +10,35 @@
     },
     "GenreForm": {
       "altLabels": {
-        "en": 74,
+        "en": 75,
         "la": 0,
-        "nb": 114,
-        "nn": 6
+        "nb": 122,
+        "nn": 0
       },
-      "concepts": 112,
+      "concepts": 99,
       "prefLabels": {
-        "en": 90,
+        "en": 82,
         "la": 0,
-        "nb": 112,
-        "nn": 12
+        "nb": 99,
+        "nn": 0
       },
-      "terms": 408
+      "terms": 378
     },
     "Geographic": {
       "altLabels": {
-        "en": 153,
+        "en": 154,
         "la": 0,
-        "nb": 109,
-        "nn": 17
+        "nb": 163,
+        "nn": 0
       },
-      "concepts": 867,
+      "concepts": 871,
       "prefLabels": {
-        "en": 862,
-        "la": 1,
-        "nb": 867,
-        "nn": 41
+        "en": 866,
+        "la": 0,
+        "nb": 871,
+        "nn": 0
       },
-      "terms": 2050
+      "terms": 2054
     },
     "Temporal": {
       "altLabels": {
@@ -58,19 +58,19 @@
     },
     "Topic": {
       "altLabels": {
-        "en": 4625,
-        "la": 32,
-        "nb": 6134,
-        "nn": 6704
+        "en": 4698,
+        "la": 0,
+        "nb": 20167,
+        "nn": 0
       },
-      "concepts": 9859,
+      "concepts": 9896,
       "prefLabels": {
-        "en": 9227,
-        "la": 410,
-        "nb": 9856,
-        "nn": 9798
+        "en": 9271,
+        "la": 0,
+        "nb": 9893,
+        "nn": 0
       },
-      "terms": 46786
+      "terms": 44029
     },
     "VirtualComplexConcept": {
       "concepts": 0,
@@ -79,28 +79,26 @@
     }
   },
   "features": {
-    "broadMatch": 3700,
-    "closeMatch": 10536,
-    "definition": 571,
-    "editorialNote": 238,
-    "exactMatch": 10383,
+    "broadMatch": 3695,
+    "closeMatch": 11321,
+    "definition": 627,
+    "editorialNote": 242,
+    "exactMatch": 10363,
     "narrowMatch": 1,
-    "related": 1443,
-    "relatedMatch": 4305
+    "related": 1461,
+    "relatedMatch": 4294
   },
   "mappings": {
     "agrovoc": 6,
-    "ddc": 22962,
-    "humord": 3210,
-    "tekord": 2995,
+    "ddc": 22876,
+    "humord": 2874,
+    "tekord": 2646,
     "wikidata": 9204
   },
   "terms": {
-    "_sum": 53220,
-    "en": 15139,
-    "la": 443,
-    "nb": 21051,
-    "nn": 16587
+    "_sum": 46638,
+    "en": 15252,
+    "nb": 31386
   },
-  "ts": 1694088998
+  "ts": 1694161368
 }
